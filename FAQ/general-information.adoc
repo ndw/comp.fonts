@@ -1,5 +1,4 @@
-General Information
--------------------
+= General Information
 
 Many FAQs, including this one, are available by anonymous ftp from
 `rtfm.mit.edu` in the directory `pub/usenet/news.answers`. Each posted
@@ -48,8 +47,7 @@ respective owners.
 
 Standard disclaimers apply.
 
-What's the difference between all these font formats?
------------------------------------------------------
+== What's the difference between all these font formats?
 
 This question is not trivial to answer. It's analogous to asking what
 the difference is between various graphics image file formats. The
@@ -270,8 +268,7 @@ Apple TrueType::
 
 ((( unquote )))
 
-What about “Multiple Master” fonts?
------------------------------------
+== What about “Multiple Master” fonts?
 
 Multiple Master Fonts are an extension to the Adobe font format.
 providing the ability to interpolate smoothly between several “design
@@ -303,8 +300,7 @@ makeblendedfont operator used to support Multiple Master fonts. There
 weren't many exhibiting this problem, though it may have happened even
 with one Adobe interpreter.
 
-Is there a methodology to describe and classify typefaces?
-----------------------------------------------------------
+== Is there a methodology to describe and classify typefaces?
 
 There is a standard, Panose, but it is mostly ignored by typographers
 (not because it's bad, just because they don't need it). The Panose
@@ -327,8 +323,8 @@ pass:[J. Ben Leiberman] has another book on type face description.
 Terry O'Donnell adds the following comments:
 
 The current ISO system was initiated (I believe) by Archie Provan of
-RIT---a successor to Mr. Lawson. Whereas in typographic practice or
-teaching---only a high level classification is necessary - times have
+RIT—a successor to Mr. Lawson. Whereas in typographic practice or
+teaching—only a high level classification is necessary - times have
 changed and the current ISO system aims to accomplish something beyond
 the high level. A major goal is to aid software to help users make
 selections. For example, a naive user might ask for all fonts on a font
@@ -336,20 +332,18 @@ server which have a Roman old style appearance. Another goal would be to
 help users with multi-lingual text: a user creating a document in
 English using e.g. Baskerville wants to know what Arabic or Japanese
 language font on his system/file server would harmonize well with the
-Baskerville. It is not all in place yet---but the more detailed ISO
-classes---and the current addition of non-latin typefaces---are an
+Baskerville. It is not all in place yet—but the more detailed ISO
+classes—and the current addition of non-latin typefaces—are an
 attempt to address this issue.
 
 A second goal is to help with the font substitution problem. Neither ISO
-or Panose address the metrics issues in font substitution---but both
+or Panose address the metrics issues in font substitution—but both
 might aid software in picking the nearest style of available available
 fonts.
 
-What about “Colonial” Typefaces?
---------------------------------
+== What about “Colonial” Typefaces?
 
-Why does colonial printing have that “Colonial” feel?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Why does colonial printing have that “Colonial” feel?
 
 Colonial type was either very roughly treated by moist salt air on the
 crossing and in colonial port cities, or was copied locally by tacky
@@ -375,8 +369,7 @@ examples as we have today. That is, the face of a character might not be
 quite planar with the page, or its sides might not be quite parallel.
 Lastly, the inks of the past were not as advanced those of today.
 
-What fonts are good for mock-colonial uses?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== What fonts are good for mock-colonial uses?
 
 For example, what fonts have the following features: old-style figures
 (non-lining numbers), the long s character, slightly irregular shapes
@@ -482,8 +475,7 @@ For anyone wishing to recreate the feel of early-to-mid 18th century
 printing, a battered, sensitive revival of Caslon would be desirable.
 The Giampa version is interesting, but is based on a poor model.
 
-What fonts could a colonial printer have had?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== What fonts could a colonial printer have had?
 
 According to D.B.Updike in the classic reference “Printing Types: Their
 History, Forms & Use”, he indicates that most colonial work was with
@@ -503,8 +495,7 @@ in america. If the Scotch Roman your vendor has is sort-of like-Bodoni
 but nicer than his Bodoni, that's it. It wasn't available until late
 1700s, though.
 
-What is “Point Size”?
----------------------
+== What is “Point Size”?
 
 This article was constructed from a posting by William D. Ricker from
 Sep 1992.
@@ -530,7 +521,7 @@ Exceptions to the points size equals ascender to descender size rule:
 * In metal, there was usually a little room between the highest and
 lowest corners of the face and the body size, so that the Matrix was
 completely molding the face and not relying on the mold-body to form a
-vertical side to the printing face---since a bevel or beard is desirable
+vertical side to the printing face—since a bevel or beard is desirable
 for impression and strength.
 * If the designer of a face thinks it should always be set leaded, s/he
 may choose to include the minimal leading in the design, in which case
@@ -553,7 +544,7 @@ point type cast on a twenty-four point body, since the cap A is about
 the height and density of a Ultrabold 36pt A in many other fonts. It
 would be called 36/24 Caps if a lowercase had been cast on a 36 point
 body, but since only UC was ever cut, as UC-only titling, it was
-standardly issued and refered to as a 24 point titling---much to the
+standardly issued and refered to as a 24 point titling—much to the
 confusion of non-cognoscenti.)
 * The Continental Point, a/k/a the Didot point, (and its Pica Em
 equivalent, the Cicero) is just a hair longer. 15 Ciceros=16 Picas, 15
@@ -574,8 +565,7 @@ measure the size with a definition and an optical micrometer. The
 defnition is embodied/manifested in the typesetting “hardware”, even if
 it is software, not the product.
 
-Knuth's Assertion
-~~~~~~~~~~~~~~~~~
+=== Knuth's Assertion
 
 What about Knuth's assertion that point size is “a more-or-less
 arbitrary number that reflects the size of type [a font] is intended to
@@ -624,15 +614,13 @@ Rubinstein, _Digital Typography_, MIT Press. On type in general, consult
 D.B. Updike in a library (out of print), or A(lexander) S. Lawson (who
 covers electronic type in his latest revision!).
 
-Where can I get fonts?
-----------------------
+== Where can I get fonts?
 
 There are a number of free font archives on the net. In addition, a
 number of commercial foundries can now sell you fonts directly over the
 net.
 
-Free and Shareware Fonts
-~~~~~~~~~~~~~~~~~~~~~~~~
+=== Free and Shareware Fonts
 
 The sites below are places where shareware and free fonts are available.
 Note that most typefaces are not available in shareware form and many
@@ -645,34 +633,30 @@ origin. It's fairly easy to take a commercial font, run it through a
 font editor of some sort, and produce a font which bears no notice of
 it's origin. That's piracy. Caveat downloader.
 
-Adobe Type 1 Fonts in MS-DOS/Unix Format:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Adobe Type 1 Fonts in MS-DOS/Unix Format::
 
 ftp://ftp.cica.indiana.edu/pub/pc/win3/fonts
 ftp://ftp.cica.indiana.edu/pub/pc/win3/fonts/atm
 ftp://archive.umich.edu/msdos/mswindows/fonts
-Adobe Type 1 Fonts in Mac Format:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Adobe Type 1 Fonts in Mac Format::
 
 ftp://mac.archive.umich.edu/mac/system.extensions/font/type1
 ftp://sumex-aim.stanford.edu:/info-mac/font
-Adobe Type 3 Fonts in Mac Format:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-link:[ftp://mac.archive.umich.edu/mac/system.extensions/font/type3]
+Adobe Type 3 Fonts in Mac Format::
 
-TrueType fonts in MS-DOS Format:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ftp://mac.archive.umich.edu/mac/system.extensions/font/type3
+
+TrueType fonts in MS-DOS Format::
 
 link:[ftp://ftp.cica.indiana.edu/pub/pc/win3/fonts/truetype]
 
-TrueType fonts in Mac Format:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TrueType fonts in Mac Format::
 
-link:[ftp://mac.archive.umich.edu/mac/system.extensions/font/truetype]
+ftp://mac.archive.umich.edu/mac/system.extensions/font/truetype
 
-TeX (MetaFont) fonts:
-^^^^^^^^^^^^^^^^^^^^^
+==== TeX (MetaFont) fonts:
 
 Try link:[the fonts directory] at the link:[WWW Interface to the
 Comprehensive TeX Archive Network].
@@ -682,16 +666,14 @@ answers to this question. The canonical list of MetaFont fonts is posted
 occasionally to comp.text.tex. The comp.text.tex newsgroup (or the
 Info-TeX mailing list, `info-tex@shsu.edu` are good places to start.
 
-Other Sources
-^^^^^^^^^^^^^
+==== Other Sources
 
 Font CDs and CD archives of large internet sites are generally
 inexpensive and offer quick access to hundreds and sometimes thousands
 of fonts. Note, however, that the same comments about quality and
 dubious origin sometimes apply.
 
-Commercial Fonts
-~~~~~~~~~~~~~~~~
+=== Commercial Fonts
 
 In general, there are no legal free sources of commercial faces
 (Helvetica, Times Roman, Courier, Palatino, Century Schoolbook, etc.).
@@ -700,8 +682,7 @@ However, some vendors have made selected faces freely available.
 See ? for a list of font vendors. Some of these vendors (Bitstream and
 Monotype, for example) sell fonts directly over the net.
 
-Where can I get fonts for non-Roman alphabets?
-----------------------------------------------
+=== Where can I get fonts for non-Roman alphabets?
 
 As mentioned above, the list of font vendors is annotated with
 information about non-Roman alphabets. Commercially, Masumi suggests
@@ -716,13 +697,11 @@ different languages are included, from Arabic to Hieroglyphics to Zulu.
 A 1200 word description is available from the publishers, Knowledge
 Computing, email: `72240.3447@compuserve.com`.
 
-What about fonts with the International Phonetic Alphabet (IPA) symbols?
-------------------------------------------------------------------------
+=== What about fonts with the International Phonetic Alphabet (IPA) symbols?
 
 I summarized Scott Brumage's recent post for the FAQ:
 
-Shareware or free (PostScript Type 1 and/or TrueType):
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Shareware or free (PostScript Type 1 and/or TrueType):
 
 TechPhon::
   Seems to lack some characters and has no zero-offset characters (for
@@ -752,8 +731,7 @@ SIL-IPA::
   These fonts were designed by the Printing Arts Department of the
   Summer Institute of Linguistics, Dallas, Texas.
 
-Shareware or free (TeX):
-~~~~~~~~~~~~~~~~~~~~~~~~
+=== Shareware or free (TeX):
 
 METAFONT sources of the phonetic symbols developed by
 Tokyo-Shoseki-Printing and Sanseido are available. The font contains all
@@ -765,22 +743,19 @@ You can get phonetic symbols METAFONT (named TSIPA) from
 
 The IP address for `ftp.foretune.co.jp` is 133.123.1.2.
 
-Commercial:
-~~~~~~~~~~~
+=== Commercial:
 
 Linguist's Software Adobe (ITC Stone Phonetic [#255], Times Phonetic
 [#278])
 
-How can I convert my ... font to ... format?
---------------------------------------------
+== How can I convert my ... font to ... format?
 
 Conversion from one bitmapped format to another is not generally too
 difficult. Conversion from one scalable format to another is very
 difficult. Several commercial software packages claim to perform these
 tasks, but none has been favorably reviewed by the comp.fonts community.
 
-Converting Between TrueType and Adobe Type 1 Formats
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Converting Between TrueType and Adobe Type 1 Formats
 
 This section was constructed from postings by Primoz Peterlin and Bert
 Medley in Sep 1993.
@@ -789,35 +764,30 @@ There are several commercial tools that will convert between these
 formats. There are no shareware or free tools that will do the job. See
 also “Why do converted fonts look so bad?”.
 
-FontMonger by Ares Software
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== FontMonger by Ares Software
 
 Performs conversion between Adobe Type 1, Adobe Type 3 and TrueType
 formats in both PC-DOS and Mac flavours, as well as simple glyph
 editing. Currently at version 1.0.7, patches available via CompuServe.
 Available for Mac and MS Windows. Commercial product, price $60-80.
 
-Alltype by Atech Software
-^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Alltype by Atech Software
 
 Performs font conversion. A stable product, being on a market for a
 while. Available for PC-DOS/MS Windows only. Commercial product. Atech
 is supposedly leaving the business.
 
-Fontographer by Altsys Co.
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Fontographer by Altsys Co.
 
 Comprehensive package, allowing creation of fonts as well as conversion
 between formats. Available for Mac and MS Windows. Commercial product,
 price cca. $270 (PC version).
 
-Metamorphosis by Altsys Co.
-^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Metamorphosis by Altsys Co.
 
 Available for Mac. Commercial product. More info needed.
 
-Converting Between Other Scalable Formats
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Converting Between Other Scalable Formats
 
 Many of the programs in the preceding section claim to be able to
 convert between other formats as well. And there are probably other
@@ -855,8 +825,7 @@ HP LaserJet bitmap softfonts::
 In addition, Adobe ships a copy of Adobe Font Foundry with all of its
 fonts which can convert Type 1 fonts into HP LaserJet softfonts.
 
-Why Do Converted Fonts Look So Bad?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Why Do Converted Fonts Look So Bad?
 
 This section was constructed from postings by Mark Hastings and David
 Glenn in Aug 1993.
@@ -882,7 +851,7 @@ The converter achieves better results on the higher resolutions because
 hinting is less important at higher resolutions. Screen fonts are
 incredibly complex to make well. You have very few pixels to represent a
 very aesthetic and distinct design. That's why at small sizes almost all
-typefaces look alike---how do you represent a graceful concave side on
+typefaces look alike—how do you represent a graceful concave side on
 the letter “L” for Optima with only 12 pixels in height and one in
 width? You can't. And that's why most fonts look similar at 10pt, unless
 they're hand hinted by typograhers.
@@ -905,8 +874,7 @@ that:
 * The TT font file may or may not have all the tables necessary.
 * Your converter may make it so ugly that you don't want to use it...
 
-Smoothing Bitmaps
-~~~~~~~~~~~~~~~~~
+=== Smoothing Bitmaps
 
 This section was constructed from postings by Jason Lee Weiler and
 Piercarlo Antonio Grandi
@@ -926,8 +894,7 @@ include tracing functions that can translate some bitmaps into
 acceptable outlines (which can be enlarged without jaggedness).
 * The GNU Font Utilities include a tracing tool that may be helpful.
 
-Are fonts copyrightable?
-------------------------
+== Are fonts copyrightable?
 
 This topic is hotly debated at regular intervals on comp.fonts. Terry
 Carroll. provides the following analysis of current [ed: as of 6/92]
@@ -1017,14 +984,12 @@ functionally mandated. This expression, assuming it meets the usual
 standard of authorship, is thus registerable as a computer program.” 57
 FR 6202.”
 
-Typeface Protection
--------------------
+== Typeface Protection
 
 [This article first appeared in TUGboat 7:3 (October 1986), pp. 146-151.
 Reproduced with permission.]
 
-Preamble
-~~~~~~~~
+=== Preamble
 
 The main question of typeface protection is: “Is there anything there
 worth protecting?” To that the answer must certainly be: “Yes.” Typeface
@@ -1032,8 +997,7 @@ designs are a form of artistic and intellectual property.” To understand
 this better, it is helpful to look at who designs type, and what the
 task requires.
 
-Who makes type designs?
-^^^^^^^^^^^^^^^^^^^^^^^
+==== Who makes type designs?
 
 Like other artistic forms, type is created by skilled artisans. They may
 be called type designers, lettering artists, punch-cutters,
@@ -1076,8 +1040,7 @@ effort. These other creative activities can be protected by copyright or
 other forms of intellectual property protection. It is reasonable to
 protect typefaces in the same way.
 
-The problem of plagiarism
-^^^^^^^^^^^^^^^^^^^^^^^^^
+==== The problem of plagiarism
 
 A lack of protection for typeface designs leads to plagiarism, piracy,
 and related deplorable activities. They are deplorable because they harm
@@ -1119,8 +1082,7 @@ interested in the economic effects of piracy, it is clear that
 plagiarism of type designs ultimately hurts individual artists far more
 than it hurts impersonal corporations.
 
-Kinds of protection for type
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Kinds of protection for type
 
 There are five main forms of protection for typefaces: Trademark,
 Copyright, Patent, Trade Secret, Ethics
@@ -1181,7 +1143,7 @@ greater degree of proprietary content, e.g. “B&H Lucida Bold Italic”.
 
 A related matter is the use of the name of a type's designer. A firm
 that ethically licenses a typeface will often cite the name of the
-designer--- e.g. Stanley Morison (with Victor Lardent) for Times Roman,
+designer—e.g. Stanley Morison (with Victor Lardent) for Times Roman,
 Max Miedinger (with Edouard Hoffmann) for Helvetica, Charles Bigelow and
 Kris Holmes for Lucida. Although a person's name is not usually a
 registered trademark, there are common law restrictions on its use. The
@@ -1281,7 +1243,7 @@ wouldn't violate copyright. Of course, the plagiarist would usually need
 to rename the font to evade trademark infringement. [As I write these
 words, I have the guilty feeling that I have just provided a recipe for
 type rip-off, but others have obviously thought of just such a
-scheme---John Dvorak has even proposed something like it in one of his
+scheme–John Dvorak has even proposed something like it in one of his
 columns.]
 
 Design Patent
@@ -1291,7 +1253,7 @@ The designs of typefaces may be patented in the U.S. under existing
 design patent law. Many designs are patented, but type designers
 generally don't like the patent process because it is slow, expensive,
 and uncertain. Nevertheless, some types do get patented, and it is a
-form of potential protection. Note that this is _Design_ Patent---the
+form of potential protection. Note that this is _Design_ Patent–the
 typeface doesn't have to be a gizmo that does something, it merely has
 to be unlike any previous typeface. The drawback here is that most
 attorneys and judges are not aware that there are more than two or three
@@ -1407,12 +1369,11 @@ end-users' attitude to plagiarized type fonts. A desire to have the
 fashionable “label” or trademark may be a greater motivation toward the
 use of bona-fide fonts than an ethical consideration.
 
-Further reading
-^^^^^^^^^^^^^^^
+==== Further reading
 
 “The State of the Art in Typeface Design Protection”, Edward Gottschall,
 _Visible Language_, Vol. XIX, No. 1, 1985 (a special issue on “The
-Computer and the Hand in Type Design”---proceedings of a conference held
+Computer and the Hand in Type Design”–proceedings of a conference held
 at Stanford University in August, 1983).
 
 _Der Schutz Typographischer Schriftzeichen_, by Guenter Kelbel. Carl
@@ -1420,8 +1381,7 @@ Heymans Verlag KG, Cologne, 1984. (A learned account, in juridical
 German prose, of the significance of the Vienna Treaty of 1973 and the
 West German Schriftzeichengesetz of 1981.)
 
-Disclaimer
-^^^^^^^^^^
+==== Disclaimer
 
 These notes were originally prepared at the request of Brian Reid, for
 informal distribution. They are based on the author's review of
@@ -1443,8 +1403,7 @@ toward the inculcation of ethical standards and the legal protection of
 artistic property. Other commentators might have a different
 perspective.
 
-File Formats
-------------
+== File Formats
 
 Many different kinds of files are available on the net. These files
 contain many different kinds of data for many different architectures.
@@ -1459,8 +1418,7 @@ architectures.
 Multiple files and directories are often combined into a single
 `archive' file. Many archive formats perform compression automatically.
 
-File Format Extensions
-~~~~~~~~~~~~~~~~~~~~~~
+=== File Format Extensions
 
 `.tar`::
   Unix `tape archive' format. Tar files can contain multiple files and
@@ -1507,8 +1465,7 @@ File Format Extensions
   is actually an ascii file. It is neither a compression program nor an
   archive format.
 
-Font Formats
-~~~~~~~~~~~~
+=== Font Formats
 
 Just as the are many, many archive formats, there are many different
 font formats. The characteristics of some of these formats are discussed
@@ -1543,8 +1500,7 @@ Bitmap Fonts:::
   3 fonts. Their presence also speeds the display of commonly used font
   sizes.
 
-Font Format Extensions
-~~~~~~~~~~~~~~~~~~~~~~
+=== Font Format Extensions
 
 `.afm`::
   Adobe Type 1 metric information in `ascii' format (human parsable)
@@ -1622,8 +1578,7 @@ Font Format Extensions
 `.vpl`::
   TeX `property list' (human readable) format of a `.vf`
 
-Ligatures
----------
+== Ligatures
 
 A ligature occurs where two or more letterforms are written or printed
 as a unit. Generally, ligatures replace characters that occur next to
@@ -1707,8 +1662,7 @@ production too much.
 
 [Ed: there is no “complete” set of ligatures.]
 
-Built-in Fonts
---------------
+== Built-in Fonts
 
 PostScript printers (and Adobe Type Manager) with 13 fonts have:
 
@@ -1769,8 +1723,7 @@ The basic 35 fonts plus four scaled faces of each of Bembo, Gill Sans,
 Rockwell, Lucida, Lucida Bright, Sans and Typewriter, giving a total of
 57 fonts, all in the F3 format.
 
-Glossary
---------
+== Glossary
 
 [ I ripped this right out of the manual I wrote for Sfware. If you have
 comments, improvements, suggestions, please tell me... ]
@@ -1918,8 +1871,7 @@ typeface::
   Modern, and Slab Serif designs. The typeface called Bodoni is a Modern
   design, while Times Roman is a Transitional design.
 
-Bibliography
-------------
+== Bibliography
 
 Editors note: the following books have been suggested by readers of
 comp.fonts. They are listed in no particular order. I have lost the
@@ -1942,7 +1894,7 @@ job work.
 _Hermann Zapf and his Design Philosophy_, Society of Typographic Arts,
 Chicago, 1987.
 
-On Stone --- The Art and Use of Typography on the Personal Computer,
+On Stone—The Art and Use of Typography on the Personal Computer,
 Sumner Stone, Bedford Arts, 1991.
 
 _Of the Just Shaping of Letters_, Albrecht Durer, isbn 0-486-21306-4.
@@ -2330,17 +2282,14 @@ Maximilien Vox (1952), a french graphist.
 _http://www.ora.com/homepages/comp.fonts/FAQ.html_. I have not yet had
 time to integrate this bibliographic information into the FAQ]
 
-Font Encoding Standards
------------------------
+== Font Encoding Standards
 
-What is a character set?
-~~~~~~~~~~~~~~~~~~~~~~~~
+=== What is a character set?
 
 A character set is a collection of symbols in a specific order. Some
 common character sets are ASCII and ISO Latin 1.
 
-What is an encoding vector?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== What is an encoding vector?
 
 The term “encoding vector” is most frequently heard in the context of
 PostScript fonts. An encoding vector embodies a particular character
@@ -2364,18 +2313,15 @@ Some common encodings are:
 |TeX text |the TeX community's seven bit defacto standard (CMR)
 |====================================================================
 
-Where can I get them?
-~~~~~~~~~~~~~~~~~~~~~
+=== Where can I get them?
 
 You can get tables showing the layout of many standard character sets
 from the Kermit distribution (via anonymous ftp from
 `watsun.cc.columbia.edu` in `/kermit/charsets`.
 
-PostScript
-----------
+== PostScript
 
-What About PostScript UNIQUEIDs?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== What About PostScript UNIQUEIDs?
 
 This section was constructed from a posting by Johannes Schmidt-Fischer
 in Jun 1993.
@@ -2400,8 +2346,7 @@ will copy it from the cache (resulting in /Foo's “A” printing for /Bar).
 
 Adobe's “Red Book” contains a detailed discussion of this topic.
 
-Can a Type 1 Font Be Shaded?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Can a Type 1 Font Be Shaded?
 
 David Lemon contributes:
 
@@ -2430,8 +2375,7 @@ will suffer and you'll be restricted to PostScript printers. On the plus
 side, your greys will be rendered at the full resolution of the printer
 you use.
 
-TrueType
---------
+== TrueType
 
 George Moore announces the following information regarding TrueType
 fonts:
@@ -2521,15 +2465,13 @@ ttfdump fontname.ttf -tcmap -nx
   information was written by the font's designers, Chuck Bigelow & Kris
   Holmes.”
 
-Unicode
--------
+== Unicode
 
 [ed: This is a summary of the Unicode info I've gleaned from the net
 recently, the whole Unicode issue needs to be addressed better by the
 FAQ...someday... someday...I'll get to reorganize the whole thing]
 
-What Is Unicode?
-~~~~~~~~~~~~~~~~
+=== What Is Unicode?
 
 Charles A. Bigelow notes:
 
@@ -2537,8 +2479,8 @@ The authors of the Unicode standard emphasize the fact that Unicode is a
 _character encoding_, not a _glyph encoding_. This might seem like a
 metaphysical distinction, in which characters have some “semantic”
 content (that is, they signify something to literates) and and glyphs
-are particular instantiations or renderings of characters---Plato talked
-about this kind of stuff---but in practice it means that most ligatures
+are particular instantiations or renderings of characters—Plato talked
+about this kind of stuff—but in practice it means that most ligatures
 are not represented in Unicode, nor swash variants, nor figure variants
 (except for superior and inferior, which are semantically distinct from
 baseline figures), and so on.
@@ -2548,8 +2490,7 @@ Character Encoding_ Version 1.0, Vol. 1 (alphabets & symbols) and Vol 2.
 (Chinese, Japanese, Korean characters), by The Unicode Consortium,
 Addison Wesley Publishing Co, 1991, ISBN 0-201-56788-1, 0-201-60845-6.
 
-What is the Unicode Consortium?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== What is the Unicode Consortium?
 
 The Unicode Consortium is an international body responsible for
 maintaining the Unicode standard. Their email address is
@@ -2567,8 +2508,7 @@ Tel. 415-966-4189
 Fax. 415-966-1637
 -----------------------
 
-Unicode Editing
-~~~~~~~~~~~~~~~
+=== Unicode Editing
 
 James Matthew Farrow contributes:
 
@@ -2591,8 +2531,7 @@ filenames, in mail, wherever and most Unix utilities cope without
 modification. This is about to be released. I'm looking for beta
 testers. ;-)
 
-Is a special keyboard required?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Is a special keyboard required?
 
 No. ASCII Characters are typed as normal. Common characters above 0x7f
 are typed using two letter abbreviations. The table is similar to the
@@ -2602,8 +2541,7 @@ library at present but is trivial to change. Other codes are accessed by
 typing their hex value, for instance the smiley is Alt-X263a (0x263a
 being a smiley character in the Unicode character set).
 
-Is roman-to-Unicode conversion available?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Is roman-to-Unicode conversion available?
 
 All normal 7 bit ascii characters are encoded as themselves so no
 translation is needed. There are conversion routines in the library
@@ -2613,8 +2551,7 @@ have to write something to do the transliteration yourself. A small
 patch to the system would let you enter different language `modes' for
 text entry.
 
-Are there PostScript or TrueType fonts available?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Are there PostScript or TrueType fonts available?
 
 Apparently there is a version of the Lucida fonts by Bigelow and Holmes
 which support Unicode. This is the information I have on them.
@@ -2661,8 +2598,7 @@ months. I enjoy the convenience of putting special characters and
 accented characters in my mail as well as being able to do some phonetic
 work all in the one terminal/editor suite.
 
-Can I Print Checks with the MICR Font?
---------------------------------------
+== Can I Print Checks with the MICR Font?
 
 This comes up all the time: standard ordinary laser toner is magnetic
 and will be read by the banks. The gotcha is that standard laser toner
@@ -2682,14 +2618,12 @@ require special handling that the banks do *not* like. Apparently, they
 go after companies that issue these kinds of checks with special
 processing fees.
 
-Rules of Thumb
---------------
+== Rules of Thumb
 
 It is difficult to set out guidelines for font usage, because almost any
 rule can be brilliantly broken under the right circumstances.
 
-General guidelines
-~~~~~~~~~~~~~~~~~~
+=== General guidelines
 
 * Never lose track of the kind of work you're doing. An effect that
 would ruin a newsletter might be just the thing for a record cover. Know
@@ -2708,8 +2642,7 @@ Look at beautiful magazines, posters, books with wide eyes, so that you
 can see how it's done. Examine ugly printed matter critically and
 consider why it's hard to read.
 
-Good rules of thumb
-~~~~~~~~~~~~~~~~~~~
+=== Good rules of thumb
 
 * If you need a condensed font, find one that was designed that way,
 rather than scaling an existing font down to a percentage. Any scaling
@@ -2748,8 +2681,7 @@ where hyphenation isn't possible.
 * Don't put two spaces at the end of a line (. ) instead of (. ) when
 using a proportionally spaced font.
 
-Acknowledgements
-----------------
+== Acknowledgements
 
 The moderators would like to express their gratitude to the whole
 community for providing insightful answers to innumerable questions. In
@@ -2834,8 +2766,7 @@ Amanda Walker
 Jason Lee Weiler 
 ----------------------------------------
 
-A Brief Introduction to Typography
-----------------------------------
+== A Brief Introduction to Typography
 
 Space, time, and bandwidth are too limiting to provide a complete
 introduction to typography in this space. I'd be very willing to make
@@ -2845,8 +2776,7 @@ the following description of Times, Helvetica, and Courier will suffice
 for a start. For more information, several books on typography are
 listed in the bibliography.
 
-Comments by Laurence Penney:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Comments by Laurence Penney:
 
 Laurence Penney offers the following description of Times, Helvetica,
 and Courier:
@@ -2992,8 +2922,7 @@ and object to the suggestion that I am “perpetuating the typographical
 morass”. (I don't know if you really intended this - apologies if you
 didn't.)
 
-Comments by Don Hosek:
-~~~~~~~~~~~~~~~~~~~~~~
+=== Comments by Don Hosek:
 
 Don Hosek offers the following additional notes:
 
@@ -3019,19 +2948,17 @@ one recutting for photocomp which improves the font somewhat. He is on
 record as saying that if he had been asked, he would have designed a new
 font for the technology.
 
-A Brief History of Type
------------------------
+== A Brief History of Type
 
 Thomas W. Phinney contributes the following discussion of the history of
 typefootnote:[Version 1.02 14 Apr 1995]:
 
-Foreword
-~~~~~~~~
+=== Foreword
 
 It is difficult to cover all the developments and movements of
 typography in a short space. My separation of evolving technologies from
-the development of typefaces is an artificial one---designs and the
-technology used to create them are not truly separable---but perhaps it
+the development of typefaces is an artificial one–designs and the
+technology used to create them are not truly separable—but perhaps it
 is conceptually useful.
 
 Where names of typefaces are used, I attempt to use the original name:
@@ -3041,11 +2968,9 @@ I shall update, clarify and correct this essay periodically, and will be
 happy to credit contributors. I can be e-mailed on CompuServe at
 75671,2441 (Internet: `75671.2441@compuserve.com`).
 
-Type Technology---The Four Revolutions
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Type Technology—The Four Revolutions
 
-Gutenberg (ca. 1450-1480) & The Impact of Printing
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Gutenberg (ca. 1450-1480) & The Impact of Printing
 
 Before the printing press, books were produced by scribes (at first,
 primarily based in monasteries, although by the 12th century there were
@@ -3061,7 +2986,7 @@ had some crude form a decade earlier). Gutenberg, although a man of
 vision, did not personally profit from his invention. He worked for over
 a decade with borrowed capital, and his business was repossessed by his
 investors before the first mass-produced book was successfully
-printed---the Gutenberg Bible of 1454, printed in Mainz by Fust and
+printed—the Gutenberg Bible of 1454, printed in Mainz by Fust and
 Schoeffer.
 
 Gutenberg's basic process remained unchanged for centuries. A punch made
@@ -3101,9 +3026,7 @@ for the spread of unwanted ideas, and some were even executed. But this
 was a largely futile struggle, and most such restraints eventually
 crumbled in the western world.
 
-Industrial Revolution: Steam, Line-casting & Automated Punch-cutting
-(start 1870-95; end 1950-65)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Industrial Revolution: Steam, Line-casting & Automated Punch-cutting (start 1870-95; end 1950-65)
 
 Amazingly, the printing press and the science of typecutting had only
 minor refinements from the late 1500s to the late 1800s. Towards the end
@@ -3127,7 +3050,7 @@ speed of punchcutting. In 1885, Linn Boyd Benton (then of Benton, Waldo
 previously painstaking process of creating punches. His machine could
 scale a drawing to the required size, as well as compressing or
 expanding the characters, and varying the weight slightly to compensate
-for the larger or smaller size--- this last being a crude form of the
+for the larger or smaller size—this last being a crude form of the
 “optical scaling” done by skilled typographers making versions of the
 same font for different sizes. In optical scaling, the thickest strokes
 retain the same relative thickness at any size, but the thinnest strokes
@@ -3158,8 +3081,7 @@ later version developed by Francois Ambroise Didot. This put
 approximately 72 points to the inch (and now exactly 72 points to the
 inch on most computer- based typesetting systems).
 
-Photocomposition (Intertype et. al., start 1950-60, end 1975-85)
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Photocomposition (Intertype et. al., start 1950-60, end 1975-85)
 
 The first photocomposition devices (the French “Photon” and Intertype's
 Fotosetter) made their debuts as early as 1944, but didn't really catch
@@ -3172,8 +3094,7 @@ pretty much eliminated optical scaling (see 2.2, above), because in the
 rush to convert fonts to the new format, usually only one design was
 used, which was directly scaled to the desired size.
 
-Digital (start 1973-83)
-^^^^^^^^^^^^^^^^^^^^^^^
+==== Digital (start 1973-83)
 
 The earliest computer-based typesetters were a hybrid between the above-
 mentioned photocomposition machines and later pure digital output. They
@@ -3232,8 +3153,7 @@ and professional graphic artists, the decreasing value of individual
 typefaces has resulted in a decrease in the number of working type
 designers per se (both independents and company-employed).
 
-Type Forms Through the Centuries
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Type Forms Through the Centuries
 
 One must keep in mind that although typefaces may have come into use at
 a particular point in time, they often continued in general use far
@@ -3246,7 +3166,7 @@ typeface itself! Further, many typefaces have very complex histories: a
 type could have been originally designed in metal at one time, reworked
 by someone else later, made into a phototypesetting face by another
 person, and then later created in digital form by yet another
-designer---who might have been working off of any of the above as the
+designer–who might have been working off of any of the above as the
 basis of their work.
 
 The classification system used here (old style, transitional, modern,
@@ -3272,8 +3192,7 @@ from a book, manual or font vendor's catalog; or simply viewing or
 printing out the fonts you have available on your computer system, if
 you have a reasonable variety.
 
-Definitions
-^^^^^^^^^^^
+==== Definitions
 
 Contrast: The degree of difference between the thick and thin strokes in
 a font (if any).
@@ -3294,8 +3213,7 @@ are drawn with a bar across the bottom, the two halves of the bar are
 serifs. If the serif is joined to the letter by a slight flaring out, it
 is said to be “bracketed.”
 
-Early Letterforms
-^^^^^^^^^^^^^^^^^
+==== Early Letterforms
 
 Although writing itself can be traced back to several millennia B.C., to
 Egyptian hieroglyphics and Sumerian cuneiform inscriptions, modern
@@ -3321,8 +3239,7 @@ script which had developed in Rome and Florence. However, italics at
 this time were a completely separate entity from the upright
 letterforms, as they remained in the early days of printing.
 
-Blackletter
-^^^^^^^^^^^
+==== Blackletter
 
 The first printed types exemplify what most people think of as medieval
 or “old English” lettering, with ornate capitals, roughly diamond-shaped
@@ -3350,8 +3267,7 @@ effort involved. Blackletter is today most appropriate for display or
 headline purposes, when one wants to invoke the feeling of a particular
 era.
 
-Old Style Typefaces: Centaur, Bembo, Jenson, Garamond, Caslon
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Old Style Typefaces: Centaur, Bembo, Jenson, Garamond, Caslon
 
 E.P. Goldschmidt, as explained by Stanley Morison, claimed that “the
 supersession of black-letter was not due to any 'technical advance,' it
@@ -3383,8 +3299,7 @@ contrast, with a somewhat variable axis, and more slope of italic. The
 most common examples are the types of Garamond and Caslon, many variant
 revivals of which exist in digital form.
 
-Transitional Type: Baskerville, Fournier
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Transitional Type: Baskerville, Fournier
 
 “Transitional” type is so-called because of its intermediate position
 between old style and modern. The distinguishing features of
@@ -3412,8 +3327,7 @@ Roman has been a very common face in metal type usage since Monotype's
 is included in a Microsoft Font Pack, and Bulmer has received more
 attention since its revival by Monotype in late 1994.
 
-Modern Type: Didot, Bodoni, Walbaum
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Modern Type: Didot, Bodoni, Walbaum
 
 “Modern” typefaces are distinguishable by their sudden-onset vertical
 stress and strong contrast. Modern serifs and horizontals are very thin,
@@ -3426,7 +3340,7 @@ modern typefaces in the late 1700s and early 1800s. One of the first,
 and ultimately the most influential, was Giambattista Bodoni, of Parma,
 Italy. Ironically, historians of type often relate the development of
 the “modern” letterforms to a then-current obsession with things
-Roman---in this case the strong contrast and sharp serifs of classical
+Roman—in this case the strong contrast and sharp serifs of classical
 Roman inscriptions. Although similar interests
 
 Today, the most common “modern” typefaces are the dozens of
@@ -3436,8 +3350,7 @@ et. al., featuring three different optical sizes. Although little is
 seen of Didot, a reinterpretation by J.E. Walbaum (ca. 1800) sees
 occasional use.
 
-Sans Serif & Slab Serif
-^^^^^^^^^^^^^^^^^^^^^^^
+==== Sans Serif & Slab Serif
 
 These type forms made their first appearances around 1815-1817. Both are
 marked by simpler letterforms with (usually) relatively uniform stroke
@@ -3506,8 +3419,7 @@ because their sturdy serifs hold up well under adverse printing
 conditions. The most famous member of this sub-family is Century
 Schoolbook (M.F. Benton, 1924-35).
 
-Decorative & Display Type
-^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Decorative & Display Type
 
 Fat Faces
 +++++++++
@@ -3596,8 +3508,7 @@ read at length. A more graceful geometric sans is Futura (Renner,
 Kabel (Koch, 1927-30). A recent popular Art Deco display face is ITC
 Anna (1991?).
 
-Synthesis
-^^^^^^^^^
+==== Synthesis
 
 Many of the most interesting typefaces of the twentieth century does not
 fit any of the above categories, or at least not easily. The reason is
@@ -3665,11 +3576,9 @@ Some examples of grunge typography are the work of Barry Deck (Template
 Gothic, Cyberotica, Truth), Nguyen's Droplet, Goren's Morire and Lin's
 Tema Cantante.
 
-Sources
-~~~~~~~
+=== Sources
 
-Published Sources:
-^^^^^^^^^^^^^^^^^^
+==== Published Sources:
 
 Although much of this information is based on prior knowledge, I also
 actively consulted the following publications:
@@ -3719,16 +3628,14 @@ Zapf, Hermann. “The Expression of Our Time in Typography” in Heritage of
 the Graphic Arts. R.R. Bowker Company, New York: 1972. ISBN
 0-8352-0213-5.
 
-Personal Contributions:
-^^^^^^^^^^^^^^^^^^^^^^^
+==== Personal Contributions:
 
 In addition to written sources, which are identified above, I would like
 to thank the following for their helpful comments and corrections (any
 errors are, of course, my responsibility): Robert Hemenway, Mary Jo
 Kostya, and Dan Margulis
 
-The Role of National Orthography in Font Design
------------------------------------------------
+== The Role of National Orthography in Font Design
 
 This article was constructed from postings by Anders Thulin, Charles A.
 Bigelow, and “fieseler” from Jan 1994.
@@ -3748,14 +3655,12 @@ vowels. (Does anyone have an example of this?) Surely this is an error
 that a designer accustomed to working with accented letters is unlikely
 to make?
 
-Interesting Fonts
------------------
+== Interesting Fonts
 
 There's no end of interesting fonts, so this is really just a catch-all
 category.
 
-Highway Gothic
-~~~~~~~~~~~~~~
+=== Highway Gothic
 
 Kibo (James Parry) provides the following discussion of Highway Gothic:
 
@@ -3774,11 +3679,10 @@ Besides E(M) with lowercase, there is a slightly lighter alphabet
 without lowercase, and three condensed styles. I recall there was also a
 set of really distorted letters for use in painting vehicle lanes, plus
 a few symbols for bike paths etc. The alphabets included letters and
-digits _only_---any periods or hyphens you see on signs are apparently
+digits _only_–any periods or hyphens you see on signs are apparently
 unofficial.
 
-Where can I get extravagant initial caps?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== Where can I get extravagant initial caps?
 
 Don Hosek writes:
 
@@ -3835,16 +3739,14 @@ Although they might not be on the Adobe CD, the Fall 1994 Font &
 Function advertises an Adobe "Initial Caps" collection of decorative
 initial caps designed by Marwan Aridi.
 
-Pronounciation of Font Names
-----------------------------
+== Pronounciation of Font Names
 
 Below each of the following font names, a suggested English
 pronounciation is given. This information was collected from a
 (relatively) long discussion on comp.fonts. If you disagree, or have
 other suggestions, please let me know.
 
-Arnold Boecklin
-~~~~~~~~~~~~~~~
+=== Arnold Boecklin
 
 “Ar” as in car, “nold” as in “old” with an “n” on the front. “Boeck” is
 tricker. The “oe” is actually an umlaut “o” in German, and the closest
@@ -3852,36 +3754,30 @@ sound to most English speakers is an “er”. So try “Berklin” if you want
 to come close to the original. Otherwise, just say “Boklin”, with a long
 o, like in “boat”.
 
-Benguiat
-~~~~~~~~
+=== Benguiat
 
 Ben-Gat. This according to an ITC brochure.
 
-Courier
-~~~~~~~
+=== Courier
 
 I would pronounce Courier not like Jim Courier, but the French way:
 Ku-rie, where “Ku” is pronounced like “coo”, only short, and “rie” is
 pronounced “ree-eh”.
 
-Didot
-~~~~~
+=== Didot
 
 Stressed at the last syllable. “Dee-DOOH” (not nasal).
 
-Fette Fraktur
-~~~~~~~~~~~~~
+=== Fette Fraktur
 
 “Fet” as in “get” with a “te” that rhymes with “way”. “Frak” rhymes with
 “mock”, and “tur” with “tour”.
 
-Fenice
-~~~~~~
+=== Fenice
 
 Feh-nee'-chey
 
-Garamond
-~~~~~~~~
+=== Garamond
 
 “Gara-”: Use a french “r” instead of an english one. Both “a”s are
 pronounced like the “u” in the word “up”. “-mond”: the last syllable is
@@ -3890,18 +3786,15 @@ is a nasal “o”. Hold your nose closed and say “Ooh”, then you get the
 right sound. The “ant” in “Avant-Garde” is very similar to this sound,
 it is a nasal situated between “a” and “o”.
 
-Helvetica
-~~~~~~~~~
+=== Helvetica
 
 Hell-veh'-ti-ka
 
-Koch Roman
-~~~~~~~~~~
+=== Koch Roman
 
 Pronounced like scottish `Loch', but with K instead of L.
 
-LaTeX
-~~~~~
+=== LaTeX
 
 Lamport lists lah'-tech, lah-tech', lay'-tech and lay'-tecks as valid on
 p.4. Last I talked to him he'd settled into lay'-tech which has always
@@ -3909,23 +3802,19 @@ been my pronunciation as well. Somewhere, I heard that LL does
 explicitly rule out L.A.-tech, but he's from northern California which
 explains a lot.
 
-Mos Eisley
-~~~~~~~~~~
+=== Mos Eisley
 
 moss eyes-lee
 
-Novarese
-~~~~~~~~
+=== Novarese
 
 No-vahr-ay'-zay
 
-Palatino
-~~~~~~~~
+=== Palatino
 
 pa-la-TEEN-oh
 
-Peignot
-~~~~~~~
+=== Peignot
 
 There's some contention here, suggested pronouncations:
 
@@ -3939,35 +3828,29 @@ examples), stressed.
 plus “y” in “yes”, “ot” -- long, closed “o” (I don't know English
 examples), stressed.
 
-Sabon
-~~~~~
+=== Sabon
 
 Sah-bon'
 
-TeX
-~~~
+=== TeX
 
 Rhymes with Blech, (as in “Blech, that tasted awfull!”)
 
-Veljovic
-~~~~~~~~
+=== Veljovic
 
 Vel'-yo-vitch
 
-Zapf
-~~~~
+=== Zapf
 
 Like “tsapf”. The “a” is pronounced like a short version of the well
 known tongue-depresser vowel “aaahhh”. Perhaps a better English analogy
 would be the “o” in “hop” or “hops”.
 
-What is it?
------------
+== What is it?
 
 This section identifies common names for several glyphs.
 
-The “@” Character
-~~~~~~~~~~~~~~~~~
+=== The “@” Character
 
 The "at" sign or "commercial at" sign. In the past, it has also meant
 "each" or "each at". Consider the following example supplied by Clive
@@ -3983,8 +3866,7 @@ Here "@" means each at or simply each.
 
 PostScript calls this the "at" sign.
 
-The “#” Character
-~~~~~~~~~~~~~~~~~
+=== The “#” Character
 
 This mark has several common names: 'hash', 'hatch', 'pound sign', and
 'octothorp' among them. The name "pound sign" is an Americanism that
@@ -4021,8 +3903,7 @@ who commented on comp.fonts.
 
 PostScript calls this the "numbersign".
 
-The f-shaped “s”
-~~~~~~~~~~~~~~~~
+=== The f-shaped “s”
 
 The f-shaped s, called the long-s, is generally shaped something like
 the modern integral sign (also sometimes called a long-s since it is, in
@@ -4031,8 +3912,7 @@ fact, an S for “summation” in calculus) with half a crossbar.
 [link:[Unicode sample glyph for long s (U+017F)]]. [link:[Unicode sample
 glyph for integral (U+222B)]].
 
-Equivalent Font Names
----------------------
+== Equivalent Font Names
 
 Morgan S. Brilliant, Jon Pastor, and Frank F. Smith have each
 contributed to the following list of equivalent font names.
@@ -4745,14 +4625,12 @@ are builtin to the HP LaserJet line of printers.
 |Wingdings |Microsoft
 |==============================================
 
-Digital Type Design Tools
--------------------------
+== Digital Type Design Tools
 
 This article was constructed from a posting by Charles A. Bigelow in Jun
 1994 and a posting by Clive Bruton in Jan 1995.
 
-How do the various digital type designing tools compare?
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== How do the various digital type designing tools compare?
 
 Charles A. Bigelow contributes:
 
@@ -4766,7 +4644,7 @@ Mac interface). _IkarusM_ displays all “on-curve” points, treating the
 curves as Hermite splines, which it converts to Beziers when making
 Type1 or Type3 fonts, and to quadratic B-splines when making TrueType
 fonts. On-curve points are helpful because they are intuitively more
-like what a naive user would expect---to change a curve, change a point
+like what a naive user would expect–to change a curve, change a point
 on its contour. _Fontographer_ uses bezier on-curve and off-curve
 control points. While these take a little more getting used-to,
 experienced users have no problems manipulating curves by moving around
@@ -4822,8 +4700,7 @@ developers deserve to be paid for their work, just like font designers.
 Bigelow & Holmes has font licensing arrangements with URW, the
 developers of _Ikarus_, but we are not paid by them.
 
-What about FontStudio?
-~~~~~~~~~~~~~~~~~~~~~~
+=== What about FontStudio?
 
 [Editors note: This seems like valuable information for the FAQ, which
 is why I've included it in a mostly wholesale fashion as Clive posted
@@ -4842,8 +4719,7 @@ _anonymous_.
 The following snippets are not necessarily in chronological order, names
 have been changed to protect the guilty!
 
-Is FontStudio Still Being Marketed?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== Is FontStudio Still Being Marketed?
 
 Well it's one of those questions isn't it, it is certainly advertised in
 the UK and as far as I know still supported by Letraset UK, but as you
@@ -4872,24 +4748,22 @@ full Letraset range, and FontStudio is in there with the rest.
 If you can't get it in the States, I'm sure I can arrange for it to be
 shipped to you.
 
-What About Bitmap Generation?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== What About Bitmap Generation?
 
 FontStudio's advantage is that they call the ATM API to get
-ATM-generated bitmaps. Fontographer generates their own---and the
+ATM-generated bitmaps. Fontographer generates their own—and the
 results are much heavier and more messy.
 
 Yes, you're right, I did know, FS has 3 options on this, its own
 generation, which like Fontographers are rather heavy, ATM's which are
-just about perfect, and True Type, which from memory---since I only
-tried it a couple of times---tend to be a bit quirky.
+just about perfect, and True Type, which from memory–since I only
+tried it a couple of times–tend to be a bit quirky.
 
-FontStudio is Better [than Fontographer]?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+==== FontStudio is Better [than Fontographer]?
 
 Could you elaborate on that? Why do you suppose that FontStudio
 disappeared, and Fontographer is still around? Not being belligerent or
-challenging you, since I'm totally unfamiliar with FontStudio---but
+challenging you, since I'm totally unfamiliar with FontStudio—but
 Altsys is not exactly a Goliath compared to Letraset, in terms of the
 size of the company or the depth of its pockets, and I'm curious why
 such a good product from a big font vendor disappeared.
@@ -4975,15 +4849,13 @@ and Letraset, then I will forward them your support, who knows Altsys
 may even decide to pack the whole Fontographer game in, and Adobe can
 relaunch FontStudio!
 
-Type Design Firms
------------------
+== Type Design Firms
 
 Although it has been a long time coming, it seems only natural that the
 _comp.fonts_ FAQ should provide a brief summary of what the various type
 design firms are producing.
 
-Carter & Cone Type, Inc.
-~~~~~~~~~~~~~~~~~~~~~~~~
+=== Carter & Cone Type, Inc.
 
 This description was constructed from postings by Don Hosek, Erik-Jan
 Vens, and David Lemon in Sep, 1993.
@@ -5004,8 +4876,7 @@ other foundries (even the foundries themselves are encouraged to
 contribute, althought I'd appreciate it if the advertising overtones
 were kept to a dull roar ;-).
 
-Galliard
-^^^^^^^^
+==== Galliard
 
 [Editors note: With appologies to C&C, I have the following snippet:
 
@@ -5032,8 +4903,7 @@ pages). It is possible to purchase just those parts of the package which
 are needed. Those able to mix fonts on their own might be able to get a
 decent selection for less than $150.
 
-Sophia
-^^^^^^
+==== Sophia
 
 Don continues,
 
@@ -5043,8 +4913,7 @@ Greek-Turkish feel to it (not suprising, really: the face is based in
 6th c. Constantinople letterforms). When I first saw this, I didn't like
 it, but it does grow on one. The price on this is $60.
 
-Mantinia
-^^^^^^^^
+==== Mantinia
 
 Finally, Don concludes,
 
@@ -5055,8 +4924,7 @@ could be typeset without kerns or raises using this alphabet). Again,
 this took some growing on one, but I'm more accepting of this (and can
 even imagine using it for real work). The price on this is $60.
 
-What does `lorem ipsum dolor' mean?
------------------------------------
+== What does `lorem ipsum dolor' mean?
 
 `Lorem ipsum dolor' is the first part of a nonsense paragraph sometimes
 used to demonstrate a font. It has been well established that if you
@@ -5095,8 +4963,7 @@ roots!"
 
 [unquote]
 
-One Example of Lorem Ipsum Dolor
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+=== One Example of Lorem Ipsum Dolor
 
 Lorem ipsum dolor sit amet, consectetaur adipisicing elit, sed do
 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
