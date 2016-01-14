@@ -1,1 +1,5 @@
 = comp.fonts FAQ
+
+This github repo is an attempt to make the comp.fonts FAQ amenable to
+continued development. The sources of this FAQ have been converted to
+AsciiDoctor. Pull requests welcome.
