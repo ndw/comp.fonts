@@ -1,47 +1,5 @@
 = General Information
 
-Many FAQs, including this one, are available by anonymous ftp from
-`rtfm.mit.edu` in the directory `pub/usenet/news.answers`. Each posted
-section of the FAQ is archived under the name that appears in the
-“Archive-name” header at the top of the article. If you are unable to
-access `rtfm.mit.edu` via ftp, you can get the FAQs via email. Send the
-message “help” to `mail-server@rtfm.mit.edu`.
-
-This FAQ is a work in progress. If you have any suggestions, I would be
-delighted to hear them. After many months of inactivity, I hope to begin
-a major update on the FAQ. Please send in your comments. And thanks for
-being patient.
-
-This FAQ is maintained in TeXinfo format. A Perl script constructs the
-postable FAQ from the TeXinfo sources. The FAQ is also available from
-_The comp.fonts Home Page_ on the World Wide Web:
-
-http://www.ora.com/homepages/comp.fonts/
-
-This is also the site for _The Internet Font Archives_.
-
-TeX DVI, PostScript, Emacs Info, plain text, and HTML versions of this
-FAQ are available from the web at
-`http://www.ora.com/homepages/comp.fonts/FAQ.html`. FTP access to these
-archives has been temporarily suspended.
-
-The posted version of the FAQ is organized in a quasi-digest format so
-that it is easy to find the questions you are interested in. All
-questions that appear in the table of contents can be found by searching
-for the word “`Subject:`” followed by the question number.
-
-The “TeXinfo” distribution from the Free Software Foundation contains a
-program called “Info” that can be used to read the Info version of the
-FAQ in a hypertext manner. The “TeXinfo” distribution can be obtained
-from `prep.ai.mit.edu` in the `/pub/gnu` directory. At the time of this
-writing, `texinfo-2.16.tar.gz` is the most recent version. Info files
-can also be read in hypertext form by GNU Emacs.
-
-Future versions of the FAQ will make more use of the hypertext
-capabilities provided by the Info format. At present, the FAQ is
-organized as a simple tree. A plain ASCII, postable version of the FAQ
-will always be maintained.
-
 All trademarks used in this document are the trademarks of their
 respective owners.
 
@@ -3733,7 +3691,7 @@ Although they might not be on the Adobe CD, the Fall 1994 Font &
 Function advertises an Adobe "Initial Caps" collection of decorative
 initial caps designed by Marwan Aridi.
 
-== Pronounciation of Font Names
+== The Origin and Pronounciation of Font Names
 
 Below each of the following font names, a suggested English
 pronounciation is given. This information was collected from a
@@ -3783,6 +3741,17 @@ it is a nasal situated between “a” and “o”.
 === Helvetica
 
 Hell-veh'-ti-ka
+
+=== Hobo
+
+Bill Ricker contributes:
+
+Wrapping link:https://plus.google.com/u/0/+BillRicker/posts/iaEEXDfqcvB?cfem=1[up a loose]
+end from comp.fonts 23 years ago …
++
+link:https://plus.google.com/114458584918177166947/posts[+Peter Zelchenko]
+reports on the source and name of Hobo font:
+https://lplatform.wordpress.com/2014/03/21/the-true-story-behind-the-hobo-font/
 
 === Koch Roman
 
