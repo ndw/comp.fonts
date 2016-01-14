@@ -2420,11 +2420,7 @@ TrueType developer information files on ftp.microsoft.com:
   specifications above, allows very effective debugging or exploration
   of any TrueType font. For example, to dump the contents of the 'cmap'
   (character code to glyph index mapping) table, enter:
-  +
--------------------------------
-ttfdump fontname.ttf -tcmap -nx
--------------------------------
-  +
+  `ttfdump fontname.ttf -tcmap -nx`
   Entering “ttfdump” with no options will give you a help message.
 `ttfname.zip`::
   Example C source code on how to parse the contents of a TrueType font.
@@ -2499,14 +2495,14 @@ maintaining the Unicode standard. Their email address is
 To obtain more information on Unicode or to order their printed material
 and/or diskettes contact:
 
------------------------
+....
 Steven A. Greenfield
 Unicode Office Manager
 1965 Charleston Road
 Mountain View, CA 94043
 Tel. 415-966-4189
 Fax. 415-966-1637
------------------------
+....
 
 === Unicode Editing
 
@@ -2563,7 +2559,7 @@ approximately 1,500 characters. The font is called "Lucida Sans Unicode"
 and was specifically designed by Bigelow and Holmes for Microsoft to
 contain the following Unicode sets:
 
------------------------
+....
 ASCII
 Latin 1
 European Latin
@@ -2571,8 +2567,8 @@ Extended Latin
 Standard Phonetic
 Modifier Letters
 Generic Diacritical
-Greek 
-Cyrillic 
+Greek
+Cyrillic
 Extended Cyrillic
 Hebrew
 Currency Symbols
@@ -2585,7 +2581,7 @@ Blocks
 Geometric Shapes
 Miscellaneous Technical
 Miscellaneous Dingbats
------------------------
+....
 
 The bitmap fonts which comes with the utf version of the libXg graphics
 library (the library upon which sam is built) support a sparse subset of
@@ -2689,82 +2685,82 @@ particular, the following people (listed alphabetically) have
 contributed directly to this FAQ (apologies, in advance, if anyone has
 been forgotten):
 
-----------------------------------------
-Masumi Abe 
-Glenn Adams 
-Daniel Amor  
-Borris Balzer 
-Charles A. Bigelow 
-David J. Birnbaum 
-Tim Bradshaw 
+....
+Masumi Abe
+Glenn Adams
+Daniel Amor
+Borris Balzer
+Charles A. Bigelow
+David J. Birnbaum
+Tim Bradshaw
 Morgan S. Brilliant
-Arlen Britton  
-Stan Brown 
-Scott Brumage 
-Lee Cambell  
-Terry Carroll 
-Gerd Castan 
-Ari Davidow 
+Arlen Britton
+Stan Brown
+Scott Brumage
+Lee Cambell
+Terry Carroll
+Gerd Castan
+Ari Davidow
 Eve Damaziere  (c/o Stephane Bortzmeyer)
-Lawrence D'Oliveiro 
-Pat Farrell 
-James Matthew Farrow 
-Stephen Friedl 
-Peter J. Gentry 
-Yossi Gil 
-Timothy Golobic  
-Kesh Govinder 
-Piercarlo Antonio Grandi  
-Robert Green 
-Rick Heli 
-Jeremy Henderson   
-Henry ??? 
-Gary 
-Berthold K.P. Horn 
-Peter Honig 
-Don Hosek 
-Bharathi Jagadeesh 
-Chang Jin-woong   
-Darrell Leland 
-David Lemon 
-Jon 
-??? 
-??? 
-Otto Makela 
-David Mandl 
-Kate McDonnell 
-George Moore 
-Robert Morris 
-Stephen Moye 
-Erlend Nagel 
-Terry O'Donnell 
-Rick Pali 
-Sean Palmer 
-Jon Pastor 
-PenDragon 
-Stephen Peters 
-Bill Phillips 
-Thomas W. Phinney 
-Jim Reese 
-Bill Ricker 
-Liam Quin 
+Lawrence D'Oliveiro
+Pat Farrell
+James Matthew Farrow
+Stephen Friedl
+Peter J. Gentry
+Yossi Gil
+Timothy Golobic
+Kesh Govinder
+Piercarlo Antonio Grandi
+Robert Green
+Rick Heli
+Jeremy Henderson
+Henry ???
+Gary
+Berthold K.P. Horn
+Peter Honig
+Don Hosek
+Bharathi Jagadeesh
+Chang Jin-woong
+Darrell Leland
+David Lemon
+Jon
+???
+???
+Otto Makela
+David Mandl
+Kate McDonnell
+George Moore
+Robert Morris
+Stephen Moye
+Erlend Nagel
+Terry O'Donnell
+Rick Pali
+Sean Palmer
+Jon Pastor
+PenDragon
+Stephen Peters
+Bill Phillips
+Thomas W. Phinney
+Jim Reese
+Bill Ricker
+Liam Quin
 Henry Schneiker
-Tom Scott 
-Bill Shirley 
-Cameron Smith 
-Daniel S. Smith 
-Frank F. Smith 
-Werenfried Spit 
-Anthony Starks 
-Ike Stoddard  
-Danny Thomas 
-Anders Thulin 
-Ian Tresman 
-Bill Troop 
-Erik-Jan Vens 
-Amanda Walker 
-Jason Lee Weiler 
-----------------------------------------
+Tom Scott
+Bill Shirley
+Cameron Smith
+Daniel S. Smith
+Frank F. Smith
+Werenfried Spit
+Anthony Starks
+Ike Stoddard
+Danny Thomas
+Anders Thulin
+Ian Tresman
+Bill Troop
+Erik-Jan Vens
+Amanda Walker
+Jason Lee Weiler
+....
 
 == A Brief Introduction to Typography
 
@@ -2828,8 +2824,6 @@ discussion may serve to clarify some of the more subtle points. My
 thanks to Laurence and Jason for allowing me to include this in the
 FAQ.]
 
-------------------------------
-
 LP-1> The Transitionals came after the Old Styles (like Garamond) and
 before the Moderns (like Bodoni).
 
@@ -2842,7 +2836,7 @@ appeared after the first examples of Y” -- it's called precis. Some
 people still make steam trains, but you can still say “Steam engines
 came before diesels.” This is chronological, not ideological in my book.
 
-------------------------------
+…
 
 LP-1> Another interesting approach to sans-serif is Optima, by Hermann
 Zapf, which keeps the stroke-weight variations which sans-serifs usually
@@ -2866,7 +2860,7 @@ Optima is crappy for text, but it's a very valuable experiment and looks
 beautiful when printed in high quality for titling, etc. And yes,
 *books* in Helvetica are generally awful.
 
-------------------------------
+…
 
 JK> Serifs have been scientifically shown to be a *lot* easier on the
 reader, as they guide the eyes along the lines.
@@ -2876,7 +2870,7 @@ only with certain seriffed fonts, and fonts like Univers aren't far
 behind. The “tracking” advantage for serif fonts is reduced when you're
 talking about narrow newspaper/magazine columns.
 
-------------------------------
+…
 
 JK> You wrote a pretty short and partial history of type. Why ignore the
 roots of type (blackletter) as well as the climax (moderns--give an
@@ -3694,23 +3688,23 @@ hasn't been mentioned yet: BBL Typographic (they have an ad on p. 39 of
 Serif 1). A demo disk is available for $10, B&W alphabets are $50 each
 and full color alphabets are $60.
 
---------------------
+....
 BBL Typographic
 137 Narrow Neck Road
 Katoomba, NSW 2780
 AUSTRALIA
 011-61-47-826111
 011-61-47-826144 FAX
---------------------
+....
 
 also distributed by:
 
---------------------------------------
+....
 Medieval & Renaissance Texts & Studies
 LN G99
 State University of New York
 Birmingham, NY 13902-6000
---------------------------------------
+....
 
 I know the work only from the Serif ad, but it's gorgeous there (even
 nicer in color, although they decided not to spend the extra money for
@@ -4860,13 +4854,13 @@ design firms are producing.
 This description was constructed from postings by Don Hosek, Erik-Jan
 Vens, and David Lemon in Sep, 1993.
 
-----------------------------
+....
 Carter & Cone Type Inc.
 2155 Massachusetts Avenue
 Cambridge, MA 02140
 617-576-0398 or 800-952-2129
 617-354-4146 FAX
-----------------------------
+....
 
 We begin with Carter & Cone not because I think they should be first,
 but because I already have a few articles about them (I probably saved
@@ -4880,11 +4874,11 @@ were kept to a dull roar ;-).
 
 [Editors note: With appologies to C&C, I have the following snippet:
 
-----------------------------------------------------------------------
+....
 >> the designer. He's in business for himself now as half of Carter &
 >> Cone (800 952 2129 voice), and he's worked Galliard over yet again.
 >> Should be cool. Support your local type designer.
-----------------------------------------------------------------------
+....
 
 Which half of C&C does this refer to?]
 
