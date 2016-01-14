@@ -1,0 +1,713 @@
+= Macintosh Information
+
+== Macintosh Font formats
+
+=== Bitmap Fonts
+
+Bitmap fonts: on the Macintosh, bitmap fonts also contain the kerning
+information for a font and must be installed with both type 1 and type 3
+fonts. Their presence also speeds the display of commonly used font
+sizes.
+
+=== PostScript Type 1
+
+Postscript Type 1 fonts can be installed on the Macintosh only by using
+accompanying bitmapped fonts.
+
+=== PostScript Type 3
+
+Postscript Type 3 fonts are installed on the Macintosh in the same way
+that Type 1 fonts are.
+
+=== TrueType
+
+Truetype fonts: no bitmapped font is necessary with this type, though
+commonly used sizes are often supplied.
+
+=== QuickDraw GX
+
+This section was constructed from postings by Charles A. Bigelow, Peter
+Moller, David Opstad, and Michael Wang from Sep 93.
+
+==== What is it?
+
+QuickDraw GX (QDGX) is the new Mac OS engine for handling screen
+presentation. It has many advantages over older engines, among them the
+ability to get ligatures, swashes etc. on the fly. QDGX is also a 16-bit
+font format that allows for example users in Korea to run their machines
+in their native tounge as well as write.
+
+==== How is it related to Unicode?
+
+Although QDGX is a 16-bit encoding, it is "orthogonal" to Unicode
+Unicode, to use a jargon term. A TrueType font, GX or otherwise, can be
+encoded using the Unicode standard, but that isn't necessary. However, a
+TrueType font, and especially a GX font, can contain glyphs for which
+there is no unique Unicode encoding, e.g. the 'fi' ligature, or a swash
+'a' with a trailing curlicue. TrueType GX fonts, however, contain
+additional information and structure that allows the QDGX system to
+properly substitute variant glyphs for certain characters in the text.
+For the above examples, QDGX will, if requested, look for the sequence
+'f' + 'i' and substitute the 'fi' ligature, or look for 'a' at the end
+of a line and substitute the glyph 'a-trailing curlicue'.
+
+It is really quite charming to see this happen, and it makes the font
+[...] a clever, trained circus dog that does tricks than a simple font.
+The GX fonts begin to show an additional personality beyond the image of
+the glyphs. In fact, the font can contain a state machine that controls
+the substitution process—in effect, a computer program. There is
+provision for another state machine controlling kerning as well, to get
+around the problems that can arise with simple pair-based kerning.
+
+David Opstad contributes the following:
+
+The bidirectional text reordering algorithm defined in Unicode is fully
+implemented in GX (in fact, during our testing of GX we uncovered some
+problems with the Unicode specification!) Also, and most unfortunately,
+since Unicode is the product of an international committee process there
+were certain compromises that were made in the design, so there really
+are Unicode character codes for certain ligatures and contextual forms
+(e.g. the "Basic Glyphs for Arabic Language" codes starting at U+FE70).
+Note, however, that GX does _not_ use these; we do Arabic contextual
+processing the same way we do Roman contextual processing. Indeed, it is
+this uniformity of approach that is, I believe, one of GX's main
+strengths.
+
+One of my greatest hopes (that keeps me going after having worked on
+getting GX done for over five years now) is that we're going to see a
+real renaissance of fonts and creativity in font designs. GX finally
+gets us back to the elegance of calligraphy, with the repeatability and
+precision of the computer.
+
+==== What about rotation?
+
+QDGX supports full 3X3 transformations (including perspective) on all
+objects in the graphics system, including text. Anti-aliasing is not
+included in GX 1.0, but we're looking at it for future versions.
+
+==== Is QDGX limited to TrueType fonts?
+
+Michael Wang contributes:
+
+Just to clarify, the component of QuickDraw GX that deals with font
+features like automatic ligature substitution is called the Line Layout
+Manager (which I'll abbreviate as LLM), and LLM features are independent
+of scaler technology. In other words, a Type 1 font can have all of the
+LLM features that a TrueType font can have under QuickDraw GX.
+
+In fact, Apple and Adobe bundle a GX version of ATM with the QuickDraw
+GX release along with a Type 1 GX version of Tekton Regular which
+includes lots of additional glyphs and supports most of the LLM
+features. If you are a Macintosh developer, there are beta GX versions
+of ATM and Tekton that you can play around with on the QuickDraw GX
+1.0b1 release that is part of the WWDC CD.
+
+Lawrence D'Oliveiro contributes:
+
+One implication of GX for font installation is that Type 1 fonts no
+longer come in “bitmap” vs “screen” versions that live in separate
+files: under QuickDraw GX, they live in “sfnt” resources, and install no
+differently from TrueType fonts.
+
+As of 1 Mar 95, QuickDraw GX 1.0.1 is the current release.
+
+== Frequently Requested Mac Fonts
+
+=== Greek Fonts
+
+This section was constructed from a posting by John Amanatides in Jan
+1995.
+
+There are three ways to get Greek out of a Mac. Approach one is to
+simply use the Symbol font; this solution is the easiest but Symbol
+doesn't have accents and you cannot easily exchange files with friends
+in Greece. Approach two is go all the way and install Apple's Greek
+system software on your Mac. It would make it identical to a machine
+sold in Greece and is really only an option for the diehards. Approach
+three is to just get a Greek keyboard driver and Greek typefaces. This
+article talks mostly about approach three while it does also mention the
+others.
+
+First some background. Until the early '80s the Greek alphabet included
+quite a lot of different diacritical marks. Thus if you are interested
+in classical Greek you will need to get a polytonic version of the
+typeface. Modern Greek now only uses accents, simplifying the use of the
+alphabet and this is normally what you will get when you ask for a Greek
+typeface.
+
+There are several encodings of the Greek alphabet. ISO-8859-7 is the
+most standard. It is an 8-bit encoding that uses the regular 7-bit ASCII
+standard in the lower 128 positions and Greek in the upper 128.
+Unfortunately, Apple did not use it (sigh). Apple's encoding is slightly
+different in the upper 128 positions. All modern Greek typefaces for the
+Mac seem to use this encoding and if you use it you can exchange files
+with your friends in Greece (and use Greek dictionaries!). If you are
+interested in classical Greek things become a little trickier. I don't
+know if there is a standard but Linguist's Software's (see below)
+encoding seems to be the most popular.
+
+==== Sources of Greek Fonts for the Mac
+
+===== Apple
+
+You can go all the way with Apple and get their Greek system software
+but getting it is non-trivial. In North America the only way to get it
+seems to be to get the "Apple Developer Mailing" from APDA. Designed for
+developers, you get a CD mailed to you monthly. The CD contains the most
+recent worldwide Mac system software along with a lot of other stuff. It
+costs \$250 US and you get updates for a year. The Greek system software
+contains TrueType versions of GrCourier, GrHelvetica, GrTimes and
+several bitmap versions of some of Apple's other typefaces along with
+the Greek keyboard driver.
+
+....
+APDA 800-282-2732 US
+800-637-0029 Canada
+716-871-6555
+....
+
+A second place to get Greek system software is in Greece. Apple's
+distributor is:
+
+....
+Rainbow Computer S.A.
+Elia Eliou 75
+Neos Kosmos, Athens
+Greece 117 44
+30-1-9012892 Voice
+30-1-9012540 FAX
+....
+
+Just because you have the Greek system software doesn't mean you have to
+install the whole system; you can just take the Greek typefaces and the
+Greek keyboard driver and use them with your current system software.
+
+Note: Linguists' Software (see below) also market version 6.0.3 of the
+Greek operating system.
+
+===== Linotype-Hell
+
+Linotype sells a variety of Type1 Greek typefaces in both modern and
+polytonic versions and in a variety of weights/styles: Times, Helvetica,
+Baskerville, New Century Schoolbook and Souvenir. The easiest way to
+purchase them is to get Linotype's CD of locked typefaces (a new one is
+coming out in Dec. '94). The CD costs \$49 US and comes with 4 free
+fonts. A Greek keyboard driver comes with the typefaces. Linotype can be
+reached at:
+
+....
+Linotype-Hell Company
+425 Oser Avenue
+Hauppage, NY, 11788
+USA
+800-633-1900
+516-434-3616 FAX
+....
+
+These typefaces are also distributed by FontShop (see below) Note: the
+new CD works on both a Mac and a PC and when you unlock a typeface you
+unlock for both systems.
+
+===== FontShop
+
+FontShop is an international chain of stores which supplies a wide
+variety of typefaces to both professionals and the rest of us. Their
+North American address is:
+
+....
+FontShop Canada Limited
+510 Front Street West
+Toronto, Ontario
+Canada M5V 3H3
+800-363-6687
+416-348-0916 FAX
+....
+
+===== Monotype
+
+Monotype offers two Greek typefaces on their locked CD: Times New Roman
+Greek and Arial Greek. Each typeface comes in four weights/styles. Their
+CD lists for \$49 and you get 8 free fonts (just enough for both of
+their Greek typefaces :-). You can reach Monotype at:
+
+....
+Monotype Typography Inc.
+Suite 2630, 150 South Wacker Drive
+Chicago, IL, 60606
+USA
+800-MONOTYP (800-666-6897)
+312-855-9475 FAX
+....
+
+These typefaces are also distributed by FontShop. Note: you get a 5 CPU
+license.
+
+===== Linguist's Software
+
+Linguist's Software has typefaces for over 250 world languages and gives
+several options for those interested in Greek. First, you can purchase
+the Greek operating system for the Mac version 6.0.3. This includes
+GrTimes and GrHelvetica (Type 3) as well as several bit-mapped system
+fonts. Second, you can purchase their modern Greek typefaces Olympus and
+Philippi (Times and Helvetica clones) in four weights/styles and in both
+Type1 and TrueType along with a keyboard driver for System 7. Finally,
+they have their own TrueType and Type1 typefaces in the LaserGreek
+package. These are of particular interest to Greek scholars since they
+include extra diacritics for ancient/N.T. Greek. This package now
+includes a Uncail typeface. LaserGreek: \$99; Modern Greek + keyboard
+driver: \$99; LaserGreek + GreekOS: \$139; LaserGreek + Modern Greek +
+keyboard driver: \$139.
+
+....
+Linguist's Software
+PO Box 580
+Edmonds, WA 98020-0580
+USA
+206-775-1130
+206-771-5911 FAX
+....
+
+===== Ecological Linguistics
+
+Ecological Linguistics also provides typfaces for a wide variety of
+world languages. They have a polytonic version of Times (GreekTimes) in
+their GreekClassical package and monotonic versions of Times and
+Helvetica (GkTimes, GkHelvetica) in four weights/styles in their
+GreekModern package. Both the GreekClassical and GreekModern packages
+are \$60 US each and come with a keyboard driver.
+
+....
+Ecological Linguistics
+P.O. Box 15156
+Washington, D.C., 20003
+U.S.A.
+202-546-5862
+....
+
+===== MacCampus
+
+MacCampus of Germany provides Greek and other Eastern European
+typefaces. The Greek typefaces come in two flavors: those that are based
+on the modern Greek keyboard layout and those based on the Symbol font
+layout. MacCampus provides a keyboard driver so that you can use the
+former type on non-Greek Macs.
+
+The typefaces available are:
+
+Modern Greek (Greek layout): Olympia (Helvetica clone) and Tiryns (Times
+clone) in 4 weights/styles
+
+Classical Greek (extra diacritics, Symbol layout): Agora Times,
+Parmenides (light, sans-serif)
+
+....
+MacCampus
+C. Kempgen
+An den Weihern 18
+D-96135 Stegaurach
+Germany
+(0951) 296739
+(0951) 296425 FAX
+....
+
+MacCampus typefaces are distributed by FontShop.
+
+===== Font World
+
+Another Greek typeface distributor is Font World. They also sell a
+variety of Eastern European typefaces. They provide a package of
+keyboard drivers for a variety of different world languages. The modern
+Greek typefaces are: FW Palace GK (Palatino?), FW Baskerfield GK, FW
+Peace GK (sans serif) & condensed version, FW Pithos GK (Lithos?), FW
+Stencil GK, FW Textbook GK, FW Tourist GK (Souvenir) and FW World GK
+(Times?). They come in a variety of weights/styles and go for about
+\$100-\$200.
+
+....
+Font World, Inc.
+2021 Scottsville Road,
+Rochester, NY 12623
+USA
+716-235-6861
+716-235-6950 FAX
+....
+
+===== SkepsiS
+
+SkepsiS is a Greek publishing company that is heavily into Macs. They
+have created and sell several nice typefaces in several weights/styles:
+Corfu (New Century Schoolbook?), Ithaca (Souvenir?), Rhodes
+(University?), Mykonos (Courier?), Paros (Antique Olive?), Samos (modern
+serif), GtcFutura (Futura?), Naxos (Eurostile?), Ios (?) The cost for a
+package containing the above is 60,000 drachmas.
+
+....
+SkepsiS Ltd
+El. Benizelou 184
+T.K. 176 75, Kallithea
+Athens, Greece
+30-1-952-2086
+30-1-952-2088 FAX
+....
+
+===== Magenta
+
+Magenta is a Greek company that sells typefaces for Macs and PCs. Their
+catalog lists over 70 typefaces with names like MgBodoni, MgOptima,
+MgAvantGarde, etc in a variety of weights/styles. Most are modern Greek
+but they also have a few classical typefaces. Each typeface family goes
+for about 8,500 drachmas.
+
+....
+Magenta Ltd
+Antimaxou 17
+115 28 Athens
+Greece
+30-1-722-9292 phone/FAX
+....
+
+Note, I have tried to contact Magenta recently and have gotten no
+response.
+
+===== Fronteiras
+
+Fonteiras is a German company that produces non-roman typefaces. They
+have 26 Greek typefaces, display and text, both polytonic and monotonic.
+Some of the families include clones of Dynamo, Stencil, Broadway, Revue,
+Futura Black, Lithos, Industria, Insignia, Palatino, Helvetica, Times,
+etc. Packages go for about \$150-\$200 US and include a Greek keyboard
+driver. The monotonic typfaces have kerning tables and some have real
+italics. (Most other vendors only have obliques.)
+
+....
+Fronteiras
+Luisenstr. 22
+D-60316 Franfurt
+Germany
+49-069-4980498 phone/FAX
+100443.1305@compuserve.com
+....
+
+===== Freeware/Shareware
+
+There is a free classical Greek typeface called Ismini that is available
+on the net at:
+
+`mac.archive.umich.edu:mac/system.extensions/font/type1/ismini.cpt.hqx`
+
+Unfortunately, I don't think it uses the same encoding as Linguist's
+Software.
+
+=== Other Fonts
+
+Many fonts are available at various archives. The king of Macintosh font
+archives is `mac.archive.umich.edu`. On `mac.archive.umich.edu`, the
+fonts are located in the following folders:
+
+....
+/mac/system.extensions/font/type1
+/mac/system.extensions/font/type3
+/mac/system.extensions/font/truetype
+…
+
+The following fonts are in Type 1 format for the Macintosh. Some are
+also available in TrueType format.
+
+[cols=",",]
+|=======================================================================
+|Tamil |Paladam, T. Govindram
+
+|Hebrew |ShalomScript, ShalomOldStyle, ShalomStick, Jonathan Brecher
+
+|Japanese |Shorai (Hirigana, with application)
+
+|Star Trek |StarTrekClassic, Star TrekClassicMovies, StarTrekTNGCrille,
+StarTrekTNG Titles, TNG monitors, StarFleet, Klinzai (Klingon font)
+
+|Command-key symbol |Chicago (TrueType or bitmap, key: Ctrl-Q), Chicago
+Symbols (Type3, key: 1), EncycloFont (Type3, key: d)
+
+|Astrologic/Astronomic symbols |Hermetica (Type1), InternationalSymbols
+(Type 3, Mars and Venus only), MortBats (Type3), Zodiac (bitmap)
+
+|IBM OEM Line Drawing Characters a|
+Try Adobe PrestigeElite or Adobe LetterGothic. They have all the
+characters you want, but the `line draw' characters are unencoded—you
+will need tools to reencode the outline font itself and make a new
+PFM metric files.
+
+Or try IBMExtended from Impramatur Systems in Cambridge, Mass. It
+already is encoded using IBM OEM encoding (some DOS code page).
+
+The IBM version of Courier distributed freely under the X11 Consortium
+also contains the appropriate characters. It is distributed in PC
+format, however. Again, the font will have to be reencoded for Windows.
+Appropriate AFM files for this font can be obtained from:
+`http://www.ora.com/homepages/comp.fonts/FAQ-tools.html`.
+
+|=======================================================================
+
+Many of these mac fonts are available in files that are either entitled
+_xxxx_`.sit` or _xxxx_`.cpt`. _xxxx_`.sit` files are Stuffit archives.
+_xxxx_`.cpt` files are Compact Pro archives. StuffitLite (shareware $25)
+and Compact Pro (shareware $25) are available at the standard ftp sites.
+Uncompressors for these programs (free) are also available at the
+archive sites. Check the utilities/compression utilities folders.
+
+== Commercial Font Sources
+
+Commercial fonts can be obtained from a number of different companies,
+including the large font houses: Adobe, Font Haus, Font Company,
+Bitstream, and Monotype. At these companies, fonts cost about $40 for a
+single face, and must be purchased in packages. Adobe, Bitstream, and
+Monotype also sell pre-designated type collections for slightly lower
+prices.
+
+Image Club sells a wide selection of fonts for about $50 for a 4 font
+family.
+
+Other, cheaper companies sell fonts of lesser quality, including
+KeyFonts, which sells a set of 100 fonts for $50 and Casady & Green's
+Fluent Laser Fonts, a set of 79 fonts for $99. Casady & Greene also
+sells Cyrillic language fonts in Times, Bodoni, and Helvetica sell for
+about $40 for each 4 font family.
+
+@c Underground Phont Archive (Jason Osborne): is a distributor of @c
+shareware/freeware truetype fonts. Many of these fonts can also be @c
+obtained at the \{\tt mac.archive.umich.edu} archive site. Currently @c
+[ed: as of 7/92] 170 fonts, which are distributed for \$35, +3 shipping
+@c for overseas orders. (Some fonts may have additional shareware fees).
+
+Foreign language fonts, ranging from Egyptian hieroglyphics to Cyrillic
+can be obtained from Ecological Linguistics.
+
+Please consult the vendor list for a more complete list of vendors.
+
+== Mac Font Installation
+
+=== System 7
+
+Install the fonts by opening the suitcase containing the bitmap file and
+dropping the fonts into your system suitcase, located inside your system
+folder. You will need to quit all other applications before doing this.
+For a TrueType font, the icon for the font will have a stack of “A”s in
+it, instead of just one. Dropping it into your system suitcase will make
+all sizes of the font available. For Postscript type 1 fonts, you also
+need to place the printer font in the extensions folder in your system
+folder. If you are using ATM you need to place these fonts in the root
+level of your system folder (not inside another folder). Using Suitcase,
+a font management utility, you can avoid cluttering your system folder
+with printer fonts.
+
+You can make new suitcases of fonts (generally not needed, but used by
+those who use Suitcase) by using Font DA mover. It operates the same as
+in system 6, except that the most recent version must be used.
+
+=== System 6
+
+Bitmap fonts can be installed using Font DA mover to move the fonts,
+located inside suitcases, into your system. You will need to restart
+your computer to make these fonts available. Printer fonts must be
+placed in the system folder, not inside any other folder.
+
+Truetype fonts can be used with system 6 if you get the Truetype init.
+Then the fonts can be installed in your system with Font DA mover.
+Suitcase can also be used under system 6.
+
+== Mac Font Utilities
+
+=== SUITCASE
+
+Suitcase is a nifty little system extension that lets you avoid having
+to install fonts into your system. In system 6, it means that you can
+avoid restarting your system every time you want to install a new font.
+
+In system 7, Suitcase lets you avoid quitting all applications before
+making fonts available. Some programs, like Quark Xpress will
+automatically update their font list when you open a new suitcase,
+allowing much more flexibility in opening and closing font suitcases and
+making different sets of fonts available.
+
+Suitcase appears in your Apple menu in both system 7 and 6 and allows
+you to open suitcases, as though they were files, thus making the fonts
+contained in them accessible to programs.
+
+In addition, when suitcase is installed, printer fonts can be stored
+with the bitmap suitcases they correspond to, instead of having to drop
+them into your system folder.
+
+The most recent version of Suitcase is compatible with TrueType.
+Suitcase is about $54 from the mail order places.
+
+=== Carpetbag
+
+A shareware program with functionality equivalent to Suitcase.
+
+=== MASTER JUGGLER
+
+Does similar things
+
+=== Adobe Type Manager (ATM)
+
+Adobe Type Manager is an Init and Control panel allows accurate screen
+display, at any size of PostScript type 1 fonts. It's function is
+replicated with Truetype (but for different outline font format). With
+it installed, you can print fonts of any size to non-PostScript
+printers. When using ATM, printer fonts must either be stored with the
+bitmap files opened with suitcase (when using Suitcase), or they must be
+stored in the root level of the system folder (with System 7.0, printer
+fonts must be stored in the Extension folder if you are not using
+Suitcase). ATM is now available, with the System 7.0 upgrade, as well as
+directly from adobe with 4 Garamond fonts.
+
+ATM is not built into System 7.1 as previously expected. With System
+7.1, printer fonts must be stored in the Fonts folder if you are not
+using Suitcase.
+
+If you are using version 7.x prior to 7.1, the following hack allows you
+to have a Font folder (if you don't use Suitcase):
+
+Open the second 'DCOD' resource from the ATM 68020/030 file. Do an ASCII
+search for the string "extn" and change it to "font" (it's case
+sensitive). Save, close, and Reboot.
+
+This process should work for 68000 machines using the proper ATM file
+instead.
+
+=== Super ATM
+
+This is a utility that will create fonts, on the fly, that match the
+metrics of any Adobe-brand fonts you don't have. It does a remarkably
+good job of mimicry because it uses two "generic" Multiple Master
+typefaces, serif and sans serif to simulate the appearance of the
+missing typefaces. (There is a 1.4 megabyte database file that allows
+Super ATM to simulate the fonts that aren't there.) You also get Type On
+Call (a CD-ROM), which has locked outline fonts, and unlocked screen
+font for all but the most recent faces in the Adobe Type library.
+
+=== TTconverter
+
+A shareware accessory available at the usual archives will convert
+Truetype fonts for the IBM into Macintosh format.
+
+=== reAdobe
+
+Converts text (PFA) format PostScript Type 1 fonts into Mac format.
+
+=== unAdobe
+
+Converts Mac format PostScript Type 1 fonts into text (PFA) format.
+
+=== Microsoft Font Pack
+
+If you work with a mixture of Macs and PCs running Windows 3.1, this is
+a good deal; 100 TrueType fonts compromising the Windows 3.1 standard
+set and the two Font Packs for Windows. This includes various display
+fonts, the Windows Wingdings font, and the Lucida family.
+
+=== Other Programs
+
+A variety of programs, for example, Font Harmony, etc. will allow you to
+change the names and ID numbers of your fonts.
+
+Fontmonger and Metamorphosis will let you convert fonts among several
+formats (type 1 and 3 and Truetype for the Mac and PC), as well as
+letting you extract the font outlines from the printer fonts.
+
+== Making Outline Fonts
+
+This is very, very difficult. Many people imagine that there are
+programs that will simply convert pictures into fonts for them. This is
+not the case; most fonts are painstakingly created by drawing curves
+that closely approximate the letterforms. In addition, special rules
+(which improve hinting, etc.) mandate that these curves be drawn in
+specific ways. Even designing, or merely digitizing, a simple font can
+take hundreds of hours.
+
+Given that, there are two major programs used for font design on the
+Macintosh, Fontographer ($280) and FontStudio ($400). These programs
+will allow you to import scanned images, and then trace them with
+drawing tools. The programs will then generate type 1, 3, TrueType and
+Bitmap fonts for either the Macintosh or the IBM PC. They will also
+generate automatic hinting. They also open previously constructed
+outline fonts, allowing them to be modified, or converted into another
+format.
+
+As far as I know, there are no shareware programs that allow you to
+generate outline fonts.
+
+=== Problems and Possible Solutions
+
+==== Another font mysteriously appears when you select a certain font for display.
+
+This is often the result of a font id conflict. All fonts on the
+Macintosh are assigned a font id, an integer value. When two fonts have
+the same id, some programs can become confused about the appropriate
+font to use. Microsoft word 4.0 used font id's to assign fonts, not
+their names. Since id's can be different on different computers, a word
+document's font could change when it was moved from one computer to
+another. Other signs of font id problems are inappropriate kerning or
+leading (the space between lines of text). Some font ID problems can be
+resolved by using Suitcase, which will reassign font ID's for you, as
+well as saving a font ID file that can be moved from computer to
+computer to keep the id's consistent. Font ID problems can also be
+solved with several type utilities, which will allow you to reassign
+font id's. Most newer programs refer to fonts correctly by name instead
+of id number, which should reduce the frequency of this problem.
+
+==== When using a document written in MSWord 5.0, the font mysteriously changes when you switch from your computer at home to work, or vice versa.
+
+This is the result of a bug in MSWord 5.0. The MSWord 5.0 updater, which
+can be found at the info-mac archives at sumex (in the demo folder),
+will fix this bug.
+
+== Creating Mac screen fonts
+
+=== Creating Mac screen fonts from Type 1 outlines
+
+Peter DiCamillo contributes the following public domain solution:
+
+BitFont is a program which will create a bitmapped font from any font
+which can be drawn on your Macintosh. In addition to standard bitmapped
+fonts, it works with Adobe outline fonts when the Adobe Type Manager is
+installed, and works with TrueType? fonts. BitFont will also tell you
+how QuickDraw will draw a given font (bitmapped, ATM, or TrueType) and
+can create a text file describing a font and all its characters.
+
+BitFont was written using MPW C version 3.2. It is in the public domain
+and may be freely distributed. The distribution files include the source
+code for BitFont.
+
+Berthold K.P. Horn contributes the following solution.
+
+This is a commercial solution. A font manipulation package from Y&Y
+includes:
+
+AFMtoPFM, PFMtoAFM, AFMtoTFM, TFMtoAFM, AFMtoSCR, SCRtoAFM, TFMtoMET,
+PFBtoPFA, PFAtoPFB, MACtoPFA, PFBtoMAC, REENCODE, MODEX, DOWNLOAD,
+SERIAL, and some other stuff I forget.
+
+To convert PC Type 1 fonts to Macintosh use PFBtoMAC on the outline font
+itself; then use AFMtoSCR to make the Mac `screen font' (repository of
+metric info). You may need to use PFMtoAFM to first make AFM file.
+
+To convert Macintosh font to PC Type 1, use MACtoPFA, followed by
+PFAtoPFB. Then run SCRtoAFM on screen font to make AFM file. Finally,
+run AFMtoPFM to make Windows font metric file.
+
+Y&Y are the `TeX without BitMaps' people (see ad in TUGboat):
+
+Y&Y makes DVPSONE, DVIWindo, and fonts, for use with TeX mostly, in
+fully hinted Adobe Type 1 format.
+
+....
+Y&Y, Inc.
+45 Walden Street
+Concord, MA 01742 
+USA
+(800) 742-4059 / (508) 371-3286 (voice)
+(508) 371-2004 (fax)
+....
+
+Mac Screen fonts can be constructed from outline fonts using
+Fontographer, as well.
