@@ -1,0 +1,270 @@
+= Amiga Information
+
+Daniel Amor contributes the following sections:
+
+== Font Concepts
+
+The Amiga is able to use two different concepts of fonts. First of all
+there are the bitmap fonts. These fonts are created by drawing a letter
+pixel for pixel onto the screen. The advantage is that they look good at
+small sizes, but are not very good for printout. Also they don't look
+very good when you change their size. Therefore you have to recreate the
+font for each size. Second there are the vector fonts. They are created
+by curves which are stored as mathematical formula. This has the
+advantage that changing the sizes does not effect the output. But this
+only applies for larger sizes and print-outs. Vector fonts also use less
+memory.
+
+== Amiga Font Formats
+
+1.  Agfa IntelliFont (suffix: .type or .lib) is the native font format
+on the Amiga. You can use it in any application and it can be converted
+to the standard bitmap format using the system utilities `IntelliFont`
+(OS 3.x) or `Fountain` (OS 2.x).
+2.  Postscript Type 1 fonts can be used within many applications, it can
+be used in every word processor and DTP program. There are two versions
+of the Type 1 format: Binary and ASCII (suffix: .pfb & .pfa). The Amiga
+software uses the Binary format, but you can easily convert them with
+TypeSmith or some PD software products (z.B. PFB2PFA) . In Addition to
+the files mentioned above, there are the metrics files with the suffixes
+.afm or .pfm. They contain information about the size (width) of the
+letters and most programs expect this file to be in the same directory
+as the font file.
+3.  Postscript Type 3 fonts (suffix: .ps or nothing) are not often used
+on the Amiga, but some applications do support this font format (e.g.
+PageStream). There are also some download utilities from PD sources
+available.
+4.  Truetype fonts (suffix: .ttf) are not very common on the Amiga,
+there is one word processor supporting this format (Wordworth 3.0). Due
+to the lower quality of the format, Amiga users tend to use higher
+quality for their DTP, DTV and word processing... There are also two
+formats: Mac & Windows available. The Amiga software is able to use the
+Windows format.
+5.  DMF fonts is the privat format of PageStream (suffix: .dmf), since
+PageStream is the market leader in DTP programs on the Amiga, so this
+format is very common!
+6.  Bitmap fonts (suffix: .font and numbers in a directory by the name
+of the font, sometimes .otag when converted from IntelliFont) were used
+in the OS 1.x, but have been replaced by the superior IntelliFont Format
+in OS 2.0. Under 2.0 or higher you still are able to use the bitmap
+fonts for small sizes, but for printouts you should use the IntelliFont
+format or any other vector font format mentioned above.
+7.  Colour Bitmap fonts (same suffixes as Bitmap Fonts, but the numbers
+have in addition a C, e.g. 35C) are also very common on the Amiga, they
+are mainly used for DTV applications, like the Video Toaster and Scala.
+
+== Frequently Requested Amiga Fonts
+
+1. First place to look for fonts is the AMINET archive. This is the
+biggest archive of Amiga software and there you will find also quite a
+lot of fonts. The Aminet consists of many mirrors around the world. Here
+are some of them:
+
+....
+ftp.wustl.edu
+ftp.luth.se
+ftp.eunet.ch
+ftp.uni-paderborn.de
+ftp.doc.ic.ac.uk
+....
+
+Just log in as ftp and go to the directory `/pub/aminet/text/font`
+
+2.  Another good ftp server to look is the CICA-server:
+`ftp.cica.indiana.edu`
+To this server are also some mirrors around the world available.
+
+3.  Also a good place to look for is the following WWW server:
+`http://www.ora.com/homepages/comp.fonts/ifa`
+
+Another good place is the Fresh Fonts I CD-ROM, there you will almost
+certainly find some nice fonts. The CD is available from
+1.  Fred Fish / Amiga Library Services (`orders@amigalib.com`)
+2.  Stefan Ossowski / Schatztruhe GmbH
+
+The CD is for free when buying another CD from that company.
+
+You can also access the HTML pages on the CD under the following
+address:
+
+http://macke.gris.informatik.uni-tuebingen.de:4711/~damor/
+
+== Commercial Font Sources
+
+Commercial fonts can be obtained from a number of different companies,
+including the large font houses: Adobe, Font Haus, Font Company,
+Bitstream, and Monotype. At these companies, fonts cost about $40 for a
+single face, and must be purchased in packages. Adobe, Bitstream, and
+Monotype also sell pre-designated type collections for slightly lower
+prices.
+
+There are also a lot of PD reseller who have a vast quantity of fonts,
+check out your local Amiga magazin for more information.
+
+Please consult the vendor list for a more complete list of vendors.
+
+== Non-Latin fonts on the Amiga
+
+Due to the really bad information policy by C= there was actually no
+information about non-latin fonts. But still it is possible to use them,
+without difficulty. You just have to get yourself some additional files.
+First of all you need the non-latin font files. There is a large
+selection of them on the Fresh Fonts CD-ROM mentioned above. In order to
+use the non-latin font files, you have to get yourself the appropriate
+keymap file, this will remap the keys on the keyboard to the appropriate
+letters of the foreign alphabet, e.g. in order to use a Russian font,
+you should set the russian keymap file in the preferences (via
+PREFS/INPUT).
+
+Not only that you can write with a non-latin alphabet, you can also
+localize your workbench. How about a Greek workbench or a Hebrew
+workbench? Have a look into the AMINET archive (mentioned above) for
+these files!
+
+In addition to this you can easily use Hebrew & Arabic in any word
+processor incl. writing from right-to-left! This can be easily done by
+setting the kerning value to negative values (like this the cursor moves
+left and not right) and moving the characters into the negativ part! You
+can get fonts from me with this feature!
+
+== Amiga Font Installation
+
+The installation of Postscript, DMF and Truetype fonts is described by
+the application that use them. Please refer to the manuals of the
+software packages.
+
+The installation of IntelliFonts is very easy. Just start `IntelliFont`
+(OS 3.x) or `Fountain` (OS 2.x) and follow the guidelines from within
+the program.
+
+In order to install bitmap fonts, either copy them to the logical device
+FONTS: or assign the directory with your bitmap fonts:
+
+....
+ASSIGN Fonts:  ADD
+....
+
+Right after this you can start your application and use them. When using
+non-latin fonts, don't forget to set the appropriate keymap file!
+
+== Amiga Font Utilities
+
+IntelliFont::
+  IntelliFont is the system program by OS 3.x which lets you install
+  Agfa IntelliFonts and converts them to bitmap fonts. The program is
+  located in the drawer `SYS:System/`. For more information read your
+  Workbench 3.x manual.
+Fountain::
+  Is the preceding program to IntelliFont and comes with the now
+  obsolete OS 2.x. Please read the section about Fountain in your
+  Workbench 2.x manual.
+PFB2PFA::
+  This neat little utility lets you convert Postscript Binary files to
+  Postscript ASCII files. This is needed in order to use DOS & Amiga
+  Adobe Type 1 fonts on the Mac!
+CacheFont::
+  This great program caches the fontlist for you, in order to save a
+  huge amount of time. The program looks for all fonts available on the
+  system and creates a special cache-file on disk.
+TypeSmith::
+  This is the best font converter on the Amiga, besides this function it
+  is also a full blown font editor (see below) :-). The program is able
+  to convert between:
+
+....
+  Truetype
+  DMF
+  Adobe (Type 1 & 3)
+  IntelliFont
+  Bitmap (Amiga, Adobe, DMF)
+....
+
+== Making Outline Fonts
+
+This is very, very difficult. Many people imagine that there are
+programs that will simply convert pictures into fonts for them. This is
+not the case; most fonts are painstakingly created by drawing curves
+that closely approximate the letterforms. In addition, special rules
+(which improve hinting, etc.) mandate that these curves be drawn in
+specific ways. Even designing, or merely digitizing, a simple font can
+take hundreds of hours.
+
+The easiest way of learning how to create fonts, is to have a look at
+existing fonts and try to change some letters.
+
+Given that, there are two major programs used for font design on the
+Amiga, TypeSmith 2.5 ($150) and FontDesigner ($100). These programs will
+allow you to import scanned images, and then trace them with drawing
+tools. The programs will then generate Adobe type 1, 3, TrueType, AGFA
+Intellifont, DMF and Bitmap fonts for either the Amiga, the Macintosh or
+the IBM PC. They will also generate automatic hinting. They also open
+previously constructed outline fonts, allowing them to be modified, or
+converted into another format.
+
+As far as I know, there are no shareware programs that allows you to
+generate outline fonts.
+
+There are also two programs for creating bitmap fonts. Personal Fonts
+Maker and Calligrapher. The second one has not been updated for several
+years, but it still is a good tool to work with. The first Program was
+created by adding some features to a good bitmap paint program (Personal
+Paint).
+
+There are some shareware tools to create bitmap fonts which you can
+convert to outline (vector) fonts with TypeSmith.
+
+== Problems and Possible Solutions
+
+=== Pagestream does not recognize your newly installed font.
+
+This happens when you have two fonts with the same ID. The solution is
+to load such a font into a font editor and enter a new ID for one of the
+fonts. Still it might happen that you choose another one, that has
+already been used by!
+
+=== Your application does not find the IntelliFont.
+
+This happens when you haven't set the locigal device FONTS: to your
+drawer. You can change this by typing the following command into your
+SHELL or add this line to your `S:User-Startup` file:
+
+....
+ASSIGN Fonts:  ADD
+....
+
+=== You're using a non-latin font and the wrong characters appear when typing.
+
+This happens when you forget to set the appropriate keymap file. Enter
+the Prefs directory and start the program `INPUT`. There you can choose
+your keymap file.
+
+== Adobe Type 1 fonts for the Amiga
+
+Darrell Leland contributes the following information:
+
+There are now three high end DTP packages for the Amiga that can
+directly or indirectly use Adobe Type 1 Fonts or AGFA Compugraphic
+fonts. The best of the lot in both my and Amiga World's opinions is
+SoftLogik's Pagestream, currently in version 2.2 but about to go to
+version 3.0. Pagestream can take Adobe fonts in MS-DOS format directly
+with no format conversion needed. All you have to do is get them on an
+Amiga format disk, which is very easy using the new version of
+Commodore's Workbench operating system. Pagestream has import modules
+for MacWrite, Adobe Illustrator, and every other format in the universe
+(seems like). It is generally a very stable and well behaved program
+with a lot of features. I haven't had a chance to see 3.0 yet, but they
+are claiming it's going to be a real killer. We shall see. It does color
+seps, twists and rotates fonts, etc. Pagestream's job has been made
+easier with Commodore's (about time) release of their own Postscript
+printer drivers and Preferences postscript printer control tools.
+
+SoftLogik also sells a program called Typesmith, which is (at last!) a
+structured font maker/editor for the Amiga. Typesmith will work with
+both formats mentioned above plus SoftLogik's own font format, which I
+get the impression they are discontinuing in favor of Postscript. They
+also sell ArtExpression, a very nice structured drawing package that
+does everything I can think of. I understand SoftLogik has also been
+getting several Mac and PC font makers to make Amiga fonts for them too.
+They even have a program system that allows programs to publish to other
+programs, sort of like in Mac System 7.0. They are lisencing it out to
+any Amiga developer who pays a paltry sum to lisence it.
