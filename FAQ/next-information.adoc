@@ -180,7 +180,7 @@ are any good ( = usually made with Fontographer).
 
 ==== NeXTstep utilities
 
-`unfont`::
+unfont::
   You can find a package, named something like `pcATMfont2NeXT.tar.Z`,
   from NeXT archives (`cs.orst.edu`) that converts PC fonts to NeXT
   format (PFB -> PFA).
@@ -196,7 +196,7 @@ are any good ( = usually made with Fontographer).
   rename the font correctly and move the outline file in the correct
   .font folder.
 
-`Opener.app`::
+Opener.app::
   Opener seems to be a very useful application since it can open several
   kinds file packages on NeXTstep that are common on other platforms.
   E.g. “`.sit`”, “`.hqx`”, “`.zoo`”, “`.zip`”, “`.z`”, etc.
