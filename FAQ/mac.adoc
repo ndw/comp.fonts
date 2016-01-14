@@ -408,7 +408,7 @@ fonts are located in the following folders:
 /mac/system.extensions/font/type1
 /mac/system.extensions/font/type3
 /mac/system.extensions/font/truetype
-…
+....
 
 The following fonts are in Type 1 format for the Macintosh. Some are
 also available in TrueType format.
