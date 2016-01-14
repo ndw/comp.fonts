@@ -3873,9 +3873,8 @@ modified and abstracted.
 One possible derivation of the name “octothorp” was provided by Charles
 Bigelow:
 
-[quote]
-----
-... old English "thorp" meant 'hamlet' or 'village' (I'm not sure of the
+""
+… old English "thorp" meant 'hamlet' or 'village' (I'm not sure of the
 difference, except maybe hamlet is smaller, as its apparent diminutive
 suffix would suggest), and is derived from a much older Indo-European
 word *treb- for 'dwelling', which turns out to mean 'beam' or 'timber'
@@ -3888,7 +3887,8 @@ consonants for very little.
 So, maybe "octothorp" means "8-beams", which makes a kind of sense if we
 take the 8 projections to be the thorps, or trabs or traves. Though it's
 only a "quadrathorp" if we think that the beams connect.
-____
+""
+
 
 Another explanation has it that the octothorp is a “thorp” surrounded by
 eight cultivated fields.
