@@ -3873,7 +3873,8 @@ modified and abstracted.
 One possible derivation of the name “octothorp” was provided by Charles
 Bigelow:
 
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+[quote]
+----
 ... old English "thorp" meant 'hamlet' or 'village' (I'm not sure of the
 difference, except maybe hamlet is smaller, as its apparent diminutive
 suffix would suggest), and is derived from a much older Indo-European
@@ -3887,7 +3888,7 @@ consonants for very little.
 So, maybe "octothorp" means "8-beams", which makes a kind of sense if we
 take the 8 projections to be the thorps, or trabs or traves. Though it's
 only a "quadrathorp" if we think that the beams connect.
-________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________________
+____
 
 Another explanation has it that the octothorp is a “thorp” surrounded by
 eight cultivated fields.
@@ -3903,8 +3904,8 @@ The f-shaped s, called the long-s, is generally shaped something like
 the modern integral sign (also sometimes called a long-s since it is, in
 fact, an S for “summation” in calculus) with half a crossbar.
 
-[link:[Unicode sample glyph for long s (U+017F)]]. [link:[Unicode sample
-glyph for integral (U+222B)]].
+link:http://www.unicode.org/Unicode.charts/Small.Glyphs/01/U+017F.gif[Unicode sample glyph for long s (U+017F)].
+link:http://www.unicode.org/Unicode.charts/Small.Glyphs/22/U+222B.gif[Unicode sample glyph for integral (U+222B)].
 
 == Equivalent Font Names
 
