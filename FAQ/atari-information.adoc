@@ -1,0 +1,115 @@
+= Atari ST/TT/Falcon Information
+
+Erlend Nagel contributed the following information about the Atari
+ST/TT/Falcon.
+
+== SpeedoGDOS
+
+SpeedoGDOS is similar to ATM.
+
+=== Fonts included with SpeedoGDOS 4.x
+
+14 fonts are included with SpeedoGDOS 4.x.
+
+Bitstream Cooper Black, Dutch 801 Roman, Dutch 801 Bold, Dutch 801
+Italic, Dutch 801 Bold Italic, Monospace 821, More Wingbats SWC, Park
+Avenue, Swiss 721, Swiss 721 Bold, Swiss 721 Italic, Swiss 721 Bols
+Italic, Symbol Monospaced, and VAG Rounded
+
+=== Fonts included with SpeedoGDOS 5.x
+
+24 fonts are included with SpeedoGDOS 5.x. All fonts included with
+SpeedoGDOS 4.x plus the following:
+
+American Garamond Roman, American Garamond Bold, American Garamond
+Italic, American Garamond Bold Italic, AD LIB Regular, Allegro Regular,
+Amelia Regular, and Cataneo Bold
+
+== Atari File Formats
+
+=== Atari Font formats
+
+The standard Atari OS in ROM does not support any type of fonts. To use
+different fonts in applications, either the application has to have
+built-in support for some font format, or an add-on program is needed.
+This add-on program is called a GDOS, a Graphical Device Operating
+System. There are many different versions of GDOS.
+
+The earliest versions of GDOS supported only GEM bitmap fonts (*.FNT).
+These versions include GDOS, AMC-GDOS (Atari), G-plus (Codehead) and
+Font-GDOS (Atari again). Font-GDOS (available for free) added caching to
+the font-manager, so not all fonts need to reside in memory at the same
+time.
+
+FontGDOS and FSM-GDOS were develloped in parallel and are both
+successors of Atari-GDOS (1.x). The FSM stands for Font Scaling Manager
+and allowed vector fonts to be used. FSM-GDOS was only included with
+Wordflair II and G-Man. FSM-GDOS also still supported GEM bitmap fonts.
+The font format is the QMS/Imagen format.
+
+After FSM-GDOS, Atari introduced SpeedoGDOS 4.0, using Speedo font
+scaling technology licensed from Bitstream. 14 fonts are included with
+this version (see 1.15). SpeedoGDOS 4.0 and 4.1 can use GEM bitmap,
+Atari encrypted and commercially encrypted Speedo fonts. As of version
+4.2 also the publicly available X11 Speedo fonts can be used. SpeedoGDOS
+offers improved speed and reliability over FSM-GDOS, as well as track-
+and pair-kerning.
+
+Recently Compo Software introduced SpeedoGDOS 5.x which supports GEM
+bitmap, Speedo, Truetype and Type 1 fonts. Included are 22 Speedo fonts
+(see 1.15).
+
+For more information about the GDOS format, consult the GDOS FAQ:
+`ftp://ftp.cs.tu-berlin.de/pub/atari/Gdos/gdosi??e.txt`. The “??” is the
+version number; as of 01 Mar 95, the versions are: 24 in English and 25
+in German. A LaTeX version of the German edition is also available.
+
+Also recently introduced was NVDI 3.0 by Behne & Behne, which supports
+GEM bitmap, Speedo and Truetype fonts. The biggest difference when
+compared to SpeedoGDOS 5.x is the improved speed, because NVDI is
+written in Assembler instead of C. Only 2 fonts are included with NVDI
+3.0.
+
+These fonts are transparent to programs. There are a few other options
+that require support by the program using the fonts. Two major font
+formats are supported in this way on the Atari, namely Signum!2/Signum!3
+fonts and Calamus fonts.
+
+The Signum!2 font format is a bitmapped font format supported by many
+wordprocessors and some drawing packages. Amazing print quality on
+9-needle printers. Many high quality designs are available in Signum!2
+and Signum!3 format (Mostly German), especially for some special
+languages like Polish. There are also many PD fonts available in this
+format.
+
+The Calamus (*.CFN) format was introduced by DMC, in their Calamus DTP
+program that uses soft-RIPping. The Calamus font format has no hinting
+since it is meant to be used on very high resolution type setting
+machines. Also supported by Digital Art's (DA's) software. Many
+professional designs are available in this format, as well as a lot of
+PD fonts.
+
+=== Atari Font Format Extensions
+
+File formats specific to the Atari platform:
+
+`.E24`::
+  Bitmapped Signum!2 screen font.
+`.L30`::
+  Bitmapped Signum!2 printer font for Laser and Deskjet printers.
+`.OTL`::
+  Vector font table used by FSM-GDOS.
+`.P9`::
+  Bitmapped Signum!2 printer font for Hi-Res 9-needle printers (214*196
+  dpi).
+`.P24`::
+  Bitmapped Signum!2 printer font for 24-needle printers.
+`.QFM`::
+  Vector font used by FSM-GDOS.
+
+== Frequently Requested Atari Fonts
+
+Some fonts, including a few Speedo fonts are available from various
+archives. The most important Atari archive is `atari.archive.umich.edu`.
+
+Most fonts can be had from PD/Shareware distributors around the world...
