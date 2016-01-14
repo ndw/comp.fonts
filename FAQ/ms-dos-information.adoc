@@ -311,12 +311,11 @@ Remember to register your shareware...
 
 * UNCPT is easier to use than UNSIT
 * UNCPT has to be run twice. I usually do it like this
-
++
 ....
 extract *.cpt -f
 extract *.cpt -f -r
 ....
-
 * When using “unsit30” you probably want the outline file with the
 MacHeader and the others without it. I think that REFONT requires it but
 I am not sure.
@@ -428,15 +427,15 @@ shown).
 the commentary for that element.
 
 * What is a font descriptor?
-
++
 A font descriptor begins with a font descriptor command and is followed
 immediately by the data for the descriptor. Font descriptors define data
 global to the font. In general, more recent printers are less strict
 about these parameters than older printers.
 * What is the font descriptor command?
-
++
 “`ESC ) s # W`”
-
++
 In this command, # is the number of bytes in the descriptor. The first
 element of the descriptor indicates how many of these bytes should be
 interpreted as the font descriptor (the remaining bytes are commentary
@@ -444,9 +443,9 @@ only--to the printer, at least). This area is frequently used for
 copyright information, for example, although some systems insert kerning
 data into this area.
 * What is the font descriptor data?
-
++
 The data is:
-
++
 ....
 UI  Font descriptor size
 UB  Descriptor format
@@ -479,27 +478,27 @@ UI  Reserved (0)
 A16 Font name
 ??  Copyright, or any other information
 ....
-
++
 `UI` = unsigned integer, `SI` = signed integer, `UB` = unsigned byte,
 `SB` = signed byte, `B` = boolean, and `A16` =sixteen bytes of ASCII.
-
++
 After the font name, ?? bytes of extra data may be inserted. These bytes
 pad the descriptor out to the length specified in the begin font
 descriptor command.
-
++
 Note: integers are _always_ in big-endian order (MSB first).
 * What is a character descriptor?
-
++
 A character descriptor describes the character specific info and the
 layout of the bitmap. Newer printers can accept compressed character
 bitmaps.
 * What is a character descriptor command?
-
++
 “`ESC * c # E`”
-
++
 The # is the length of the descriptor, in bytes.
 * What is the character descriptor data?
-
++
 ....
 UB  Format
  B  Continuation
@@ -513,14 +512,14 @@ UI  Character height
 SI  Delta X
 ??  Character (bitmap) data.
 ....
-
++
 Although older printers cannot accept characters that include
 continuations, newer printers can. If the “continuation” field is 1, the
 character bitmap data begins immediately after that byte and the
 remaining fields _are not_ present.
 * Ok, now I understand the data, what do I look for in the output
 stream?
-
++
 ESC * c # D::
   defines the font number (remember the number).
 ESC ) s # W::
@@ -531,7 +530,7 @@ ESC * c # E::
   to appear in any particular order.
 ESC ( s # W::
   defines the character descriptor (as described above).
-
++
 Remember, these can occur in any order. Experimentation with the
 particular driver you are using may help you restrict the number of
 different cases that you have to be prepared for.
