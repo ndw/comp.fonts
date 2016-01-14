@@ -3748,7 +3748,7 @@ Bill Ricker contributes:
 
 Wrapping link:https://plus.google.com/u/0/+BillRicker/posts/iaEEXDfqcvB?cfem=1[up a loose]
 end from comp.fonts 23 years ago …
-+
+
 link:https://plus.google.com/114458584918177166947/posts[+Peter Zelchenko]
 reports on the source and name of Hobo font:
 https://lplatform.wordpress.com/2014/03/21/the-true-story-behind-the-hobo-font/
