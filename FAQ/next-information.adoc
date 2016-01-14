@@ -184,23 +184,25 @@ are any good ( = usually made with Fontographer).
   You can find a package, named something like `pcATMfont2NeXT.tar.Z`,
   from NeXT archives (`cs.orst.edu`) that converts PC fonts to NeXT
   format (PFB -> PFA).
-+
+
   The most useful tool for me has been “`unfont`” which converts the
   .pfb (binary outline) font to ASCII outline font.
-+
+
   I usually use it like this
-+
+
   `$ unfont new_font.pfb >NewFont`
-+
+
   If the conversion was successful all I have to after that is maybe to
   rename the font correctly and move the outline file in the correct
   .font folder.
+
 `Opener.app`::
   Opener seems to be a very useful application since it can open several
   kinds file packages on NeXTstep that are common on other platforms.
   E.g. “`.sit`”, “`.hqx`”, “`.zoo`”, “`.zip`”, “`.z`”, etc.
-+
+
   I haven't used it a lot but looks very promising.
+
 T1utils-1.1::
   This is collection of command-line programs that manipulate PS Type 1
   fonts and one of them can also do the PFB->PFA conversion (t1ascii?).
