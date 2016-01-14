@@ -1,0 +1,539 @@
+= Vendor Information
+
+This information is now being updated by Don Hosek. In the meantime, the
+old list has been removed because so many entries were completely
+out-of-date. The temporary list below includes only the font vendors
+from the comp.fonts Foundries on the Web] page.
+
+ACTIVE IMAGES::
+  ACTIVE IMAGES 430 Colorado Avenue #301 Santa Monica, CA 90401 Phone:
+  (310) 458-9094 Fax: (310) 451-9761 Email: actim@gramercy.ios.com The
+  world's greatest comic book fonts. Assembled in Richard Starkings'
+  Font Laboratory, COMICRAFT fonts appear in over 3 million comic books
+  every month!
+AcuteType::
+  AcuteType 120 Village Square, No. 4 Orinda, CA 94563 USA Email:
+  acute@acutetype.com A solo endeavor, AcuteType is a Mac-based studio
+  for media publishing, practiced as a craft.
+Adobe Systems, Inc.::
+  Adobe Systems, Inc. 1585 Charleston Road P.O. Box 7900 Mountain View,
+  California 94039-7900 USA Phone: (415) 961-4400 Fax: 415-961-3769
+  Adobe Systems Incorporated develops, markets, and supports computer
+  software products and technologies that enable users to create,
+  display, print, and communicate electronic documents. Adobe licenses
+  its technology to major computer and publishing suppliers, and markets
+  a line of type and application software products.
+AgfaType::
+  The AgfaType Collection is one of the largest, most diverse selection
+  of high-quality, PostScript Type I fonts available for creative
+  professionals. It consists of the AgfaType Library, the Adobe Library,
+  the Agfa Logos and Symbols Library, and the AgfaType Japanese
+  Collection. The AgfaType Collection is available on our award-winning
+  AgfaType CD-ROM, and typefaces can be purchased on floppy disks as
+  well--for both Macintosh and PC computers.
+Alpine Fonts::
+  Alpine Electronics 526 West 7th. St Powell, WY 82435 US Email:
+  alpine@wave.park.wy.us Fonts for chess and other games.
+Apple Quickdraw GX Homepage::
+  Apple Computer, Inc. 1 Infinite Loop Cupertino, CA 95014 Phone: (408)
+  996-1010 QuickDraw GX is Apple Computer's new imaging model for the
+  Macintosh and Power Macintosh computers. This page is a starting
+  point, and can take you to more detailed information about Typography,
+  Graphics, and Printing.
+  +
+  In addition, Lawrence D'Oliveiro] maintains an
+  Introduction to QuickDraw GX Programming].
+Architext, Inc.::
+  Architext, Inc. San Antonio, Texas Phone: (210) 490-2240 Fax: (210)
+  490-2242 Email: 76356.2576@compuserve.com Architext, Inc. is a font
+  and graphic solution for your printing environment. We specialize in
+  providing specific fonts for your applications. Whether you need data
+  processing fonts, speciality script fonts, or bar codes; we can
+  provide the type you need.
+Attention Earthling Font Foundry::
+  Attention Earthling Font Foundry Email: atnearth@inch.com We have a
+  modest selection of cool fonts for Machintosh and Windows.
+BBL Typographic PostScript Clip Art::
+  BBL Typographic 137 Narrow Neck Rd Katoomba, NSW 2780 Australia Phone:
+  +61 47 826111 Fax: +61 47 826144 Collections of professional quality
+  typographic clip art including medieval and renaissance illuminated
+  letters and ancient greek art.
+Bersearch Information Services::
+  PostScript programming and typeface design.
+Bitstream, Inc.::
+  Bitstream, Inc. 215 First Street Cambridge, MA 02142 USA Phone: (800)
+  522-3668 or (617) 497-6222 Fax: (617) 868-4732 Bitstream is commited
+  to developing type and type technology to give you the font choices
+  and capabilities that you need for effective new media publishing. Use
+  this home page to find out more about Bitstream, its products and its
+  visions for the future of electronic communications.
+Blue Sky Research::
+  Blue Sky Research 534 SW Third Ave. Portland, OR 97204 USA Phone:
+  (800) 622-8398 or (503) 222-9571 Fax: (503) 222-9571 Email:
+  sales@bluesky.com Blue Sky Research sells Textures, a Mac
+  implementation of TeX and PostScript Type 1 versions of fonts for use
+  with TeX.
+Bushman's Free Fonts and Rad Art::
+  Brandon Thomas Email: thomason@in.net Original shareware fonts
+  developed by Brandon Thomas plus Freeware and Shareware fonts from
+  other sources and a small gallery of art.
+CAKEFONTS::
+  CAKE Publications, Inc. 2401 University Avenue NE Minneapolis, MN
+  55418 USA Phone: (612) 781-9178 Fax: (612) 781-9181 Email:
+  cakefonts@bitstream.mpls.mn.us Designed specifically for editorial use
+  in CAKE Magazine, CAKEFONTS are now available to the public.
+Casa De Toad FontFactory::
+  Casa De Toad Email: cdtoad@nacs.net Casa De Toad provides several
+  (extremely) informal faces.
+Castle Systems Online::
+  Castle Systems Fonts.
+Chank! Fonts!::
+  The CHANK! Company Chank Diesel P.O. Box 580736 Minneapolis, MN
+  55458-0736 Email: chank@bitstream.net Having designed fonts for CAKE
+  Magazine, [T-26], Monotype, and the Exploding Font Company, the artist
+  formerly known as Charles Anderson from Minneapolis now has all of his
+  fonts available for viewing and purchase on the internet. Parental
+  guidance is suggested, as there are some dirty words at this location.
+  See the fonts that the Smithsonian's Cooper-Hewitt National Design
+  Museum have called "an important example of contemporary typography."
+Cool Fonts Online::
+  Todd Dever - WWW Fonts P.O. Box 91952 Long Beach, CA 90809-1952 Email:
+  76235.3342@compuserve.com Fonts by Todd Dever.
+creative TypeFaces by Rob Leuschke::
+  Rob Leuschke Email: robl@i1.net Rob Leuschke has been creating
+  beautiful handlettered stylings for over a decade. With his training
+  as a lettering artist at Hallmark Cards in the early 1980's Rob
+  branched out in 1987 to provide lettering and graphic design work for
+  clients all over the world.
+DENIART::
+  Deniart Systems Email: deniart@idirect.com Give your documents a sense
+  of history and design with historically accurate, high quality symbol
+  fonts that span the ages. From ancient Egyptian Hieroglyphics to
+  modern Zodiacs, Deniart fonts give you access to pictures that talk.
+  Comprehensive interpretation guides put all these font graphics right
+  at your fingertips.
+Dennis Ortiz-Lopez::
+  A great collection of display types
+designOnline(sm)::
+  Peter Fraterdeus Email: peterf@dol.com Home of _Alphabets, Inc._,
+  designOnline is the online resource for design. The majority of the
+  interactivity is happening on [their] FirstClass server, currently
+  available by dialup and across the Internet.
+Digiteyes Multimedia TypeArt Library::
+  Digiteyes Multimedia Email: feedback@typeart.com Here you will find an
+  interactive typeface catalogue filled with original fonts, a type game
+  called "Name that Font!", ongoing weekly tips for both typesetters and
+  font designers, and the TypeArt Gallery, where you can view our fonts
+  used in actual designs.
+Dixie's Delights Fonts::
+  Dixie's Delights Email: dixiesdlts@aol.com Dixie's Delights Fonts
+  publishes seventy-five beautiful high-quality typeface and
+  ornamental/dingbat fonts for Mac and Windows PCs. Our fonts have been
+  used in thousands of books, magazines, and advertisements world-wide.
+  We believe you will find our fonts to be both beautiful and unusual,
+  as well as very reasonably priced.
+DS Design::
+  DS Design specializes in selling web, graphic design and multimedia
+  software. We distribute products electronically for immediate use.
+Elfring Soft Fonts, Inc.::
+  Elfring Soft Fonts, Inc. PO Box 61 Wasco, IL 60183 US Phone:
+  630-377-3520 Fax: 630-377-6402 Email: info@elfring.com Makers of
+  TrueType fonts for PCs including: Art Deco, Script/Calligraphy,
+  Headline, Text, bar codes, MICR, keycaps, fixed width / monospaced,
+  signatures, and logos. We also make clip art collections.
+Emboss Fonts::
+  Emboss Fonts 178 E. Main Street Gloucester, MA 01930 USA Email:
+  emboss@tiac.net Fonts designed by S. Boss.
+Emigre::
+  Emigre Email: info@emigre.com Emigre, Inc. is a digital type foundry,
+  publisher and distributor of graphic design related software and
+  printed materials based in Northern California. Founded in 1984,
+  coinciding with the birth of the Macintosh, Emigre was one of the
+  first independent type foundries to establish itself centered around
+  personal computer technology. Emigre holds exclusive license to over
+  150 original typeface designs created by a roster of contemporary
+  designers.
+Font Bureau, Inc.::
+  Font Bureau, Inc. Phone: (617) 423-8770 Email: sales@fontbureau.com
+  The Font Bureau, Inc. is an independent digital type foundry located
+  in Boston, Massachusetts. The company's primary goals are to provide
+  consultation, type design, and typographic production services to
+  clients requiring custom type development for their publishing
+  activities. In addition, Font Bureau has a large library of typefaces
+  available for retail sale.
+Font Haus::
+  Font Haus Phone: (800) 942-9110 9am to 8pm EST Fax: (203) 367-1860
+  Email: FontHaus@AOL.COM Since 1990, FontHaus has earned a reputation
+  as being not only the best resource for Adobe, Agfa, Font Bureau, ITC,
+  and Monotype fonts, it is also known for its vast collection of
+  high-quality exclusive fonts licensed from some of the most creative
+  and innovative designers of our times. Beyond selection, FontHaus also
+  offers the best prices, services, special promotions and expert
+  product knowledge for Mac and PC floppy disk or CD-Rom users.
+Fonthead Design::
+  Fonthead Design Ethan Dunham 2731 Blairstone Rd #184 Tallahassee, FL
+  32301-5913 Email: ethan@fonthead.com Fonthead Design is a small type
+  foundry located in Tallahassee Florida. The aim is to make neat-o
+  fonts, have fun doing it, and distribute the fonts cheaply so that
+  everyone who wants 'em can have 'em. (I've even been known to do some
+  trading in the past.)
+FontWorks::
+  FontWorks is the most comprehensive source of postscript fonts in the
+  UK. Apart from offering type from all the major manufacturers and many
+  specialist design studios we also offer a digitising service for
+  anything from a complete typeface family to logos and individual extra
+  characters. We also offer a type recognition service second to none
+  and continually serve our clients with regular type information
+  mailings.
+Fontworld::
+  Beautiful faces.
+Fountain: A Friendly Type Foundry::
+  FOUNTAIN Södra Parkgatan 29 A S-214 22 MalmöSweden Email:
+  fountain@algonet.se FOUNTAIN is a young swedish independent friendly
+  type foundry, who's set out to explore the digital realm of new wave
+  typography, (or something like that).
+Garage Fonts::
+  Welcome to the virtual garage, ready to fix all your boring font
+  problems! So pull on in, leave the keys in the car and check out our
+  newly created customer waiting area. Not only is our website new,
+  we've got a brand new Swimsuit Edition catalog with about 70 new fonts
+  from a bunch of creative designers from around the world.
+Goblin Design::
+  Goblin Design Email: goblinarts@aol.com at coolFONTSforFOOLS
+  professional fonts as shareware awaits you for free downloading!
+  There's also graphic design, illustrations, precious web design and
+  other interesting artwork available.
+Graphion Typesetting & Systems::
+  Graphion Typesetting & Systems Phone: (415) 586-2573 Fax: (415)
+  586-7285 Email: graphion@graphion.com Graphion Typesetting delivers
+  quality page composition at competitive prices, with the rapid
+  turnaround necessary for time-sensitive material. We specialize in
+  computer data: typesetting from information that was not originally
+  intended to be typeset. This includes course schedules, membership
+  directories and price lists, as well as conventional text. Of special
+  interest: Graphion's Online Type Museum].
+Handcraftedfonts::
+  Each month will feature a specially discounted product or service
+  available only to those who visit our site. Handcraftedfonts Company
+  specializes in unique fonts & clip art by designers Jonathan Macagba
+  and Gregory La Vardera.
+Harris Design::
+  Jim Harris Email: hdfonts@sonic.net Harris Design creates commercial
+  typefaces for the Macintosh and PC platforms. Our fonts are marketed
+  worldwide by FontHaus, Monotype, and Precision Type. Harris Design
+  also specializes in corporate identity packages, 3D illustration, and
+  graphics for multimedia and the World Wide Web.
+hellbox type foundry::
+  The hellbox type foundry Home Page for AlphaMonkey.
+The Hoefler Type Foundry, Inc. / MUSE::
+  The Hoefler Type Foundry, Inc 611 Broadway, Room 815 New York, NY
+  10012-2608 US Phone: (212) 777-6640 (toll-free in the UK: 0800 897
+  870) Fax: (212) 777-6684 Email: info@typography.com Marked by
+  versatility and thoughtfulness, the collection of The Hoefler Type
+  Foundry includes families of original typefaces first developed for
+  Rolling Stone, Harper's Bazaar, and Sports Illustrated, now available
+  for the first time exclusively from their designer. These fonts are
+  offered in attentively planned type families: the 42-member Didot
+  family is provided in three weights with italics, each in seven master
+  sizes; Champion Gothic includes six different widths; the Proteus
+  Project includes four interchangeable 'sub-families' in quite
+  different styles. Premiering this year is MUSE, the foundry's
+  periodical which presents its typefaces in a critical and historical
+  context.
+House Industries::
+  _House Industries_ is a typography company formed in 1993 by the three
+  principals of _Brand Design Company_. The goal of House Industries is
+  to continuously create new, unique, and innovative and artistic
+  typography.
+Image Club Graphics::
+  Image Club Graphics, Inc. 729 Twenty Fourth Avenue Southeast Calgary,
+  Alberta, Canada T2P 3T5 Phone: (800) 661-9410 (orders), (800) 387-9193
+  (catalog requests), or (403) 262-8008 Fax: (403) 261-7013 Image Club
+  is a wholly owned subsidiary of Adobe Systems Incorporated
+  specializing in providing quality original clip art, brand name
+  display fonts and stock photographic images at reasonable prices.
+Infrastructure USA, Inc.::
+  Infrastructure USA, Inc. Email: type1@type1.com Infrastructure is
+  currently developing an extensive line of display typefaces. In
+  addition to our typeface collection we are also developing a series of
+  image fonts. Other projects include [HIREZ] image based display
+  typefaces and photo images / resources.
+International Typeface Corporation::
+  Founded in 1969, International Typeface Corporation (ITC) has been
+  responsible for the creation and refinement of over 650 typefaces. ITC
+  was originally formed to meet the new challenges and opportunities of
+  phototypesetting. Our goal has always been to produce typefaces of the
+  highest quality using the most advanced technology available. In 1995
+  ITC plans to release 195 new typefaces, including Latin, Cyrillic,
+  Greek, Arabic, and Cyrillic designs. ITC typefaces will be available
+  directly from ITC upon their release. ITC's releases will be announced
+  here, as well as in the pages of U&lc.
+Jack Yan & Associates::
+  Jack Yan & Associates Designature Group PO Box 14-368 13 Mamari Street
+  Wellington New Zealand Phone: 64 4 387-3213 Fax: 64 4 387-3213 Email:
+  jya@panix.com Jack Yan & Associates produce a number of commercial
+  text and display faces.
+Kiwi Media::
+  _Kiwi Media_ is the source of several fonts by Eric Oehler]
+  including ``Devotion,'' ``Sin Gothic,'' ``Ogilvie,'' ``Erasure,''
+  ``Technobats,'' ``Bajoran,'' and a half dozen or so others.
+Letraset::
+  Letraset produces graphic design software tools and graphic art
+  supplies. Here you can download a free Fontek font and utility, browse
+  our graphic design showcase of fonts, clipart and background
+  photography, or learn about contemporary Type from leading
+  typographers.
+Linotype-Hell::
+  Linotype-Hell Company 425 Oser Avenue Hauppauge, NY 11788 Phone: (800)
+  633-1900 Fax: (516) 233-216 Email: info@linotype.com The Linotype
+  Library is widely considered to be the world's most prestigious
+  collection of high-quality typefaces. There are more than 2,000
+  typefaces, over 1,700 of which are available in PostScript format. In
+  addition to offering them as individual font families on diskette for
+  Macintosh and Windows, we also offer them in a variety of packages.
+Mainz Workshop::
+  We here create historical typefaces, and sometimes manuscript hands.
+  Currently, The typeface collection is not large but unique. We have
+  been creating type since 1987.
+Match Software Font Foundry Catalog::
+  Match Software 8205 Santa Monica Blvd. Suite 1-205 West Hollywood, CA
+  90046-5912 US Phone: 213-656-4244 Email: sales@matchfonts.com Match
+  Software offers an exclusive collection of original fonts created by
+  Michel Bujardet for Desktop Publishing, Word Processing, Prepress,
+  Education, and foreign languages. For Windows, Macintosh and OS/2.
+  This online catalog offers free font samples for download. Order
+  online. Mail or electronic delivery.
+mattt's fonts::
+  mattt's fonts 3741 Midvale Ave. Oakland , CA 94602 US Email:
+  strthrwr@scruznet.com We offer custom handwriting, signature and logo
+  fonts, as well as a variety of original typefaces.
+Microsoft Typography::
+  Microsoft, Inc. One Microsoft Way Redmond, WA The Microsoft TrueType
+  Typography home page.
+mindCANDY design::
+  Type and design.
+Monotype Typography::
+  Monotype Typography Suite 2630 150 South Wacker Drive Chicago, IL
+  60606 Phone: (800) MONOTYP (800-666-6897) or (312) 855-1440 Fax: (312)
+  855-9475 Email: 71333,2361@compuserve.com Monotype offers professional
+  designers and graphic artists the most versatile collection of
+  PostScript typefaces on a "locked" set of two CD-ROM discs. Monotype
+  CD 5.0 features over 4000 fonts from Monotype Classic Fonts, Adobe
+  Type Library, and Type Designers of the World. Also included are 138
+  popular utility and software programs and over 2000 clip art images.
+  Users can purchase fonts individually, in volumes, or as entire
+  libraries.
+Mountain Lake Software::
+  Creators of Kiddo Font], a unique font to make drop caps,
+  headings, and more. There is a different picture of a child in an
+  active pose that forms each letter of the alphabet. The Kiddo font is
+  based on an old German font and contains just the capital letters of
+  the alphabet.
+Nancy Neale Typecraft::
+  Nancy Neale Typecraft Contact: Irving Silverman 130 Ash Drive Roslyn,
+  New York 11576 Phone: (800) 927-7469 or (516) 621-7130 Fax: (516)
+  621-5090 Email: type@acadia.net Nancy Neale Typecraft has the largest
+  Collection of Antique Printing Memorabilia in the world in private
+  hands. [Ed. Ok, I admit this isn't a digital type foundry, but I think
+  it's cool. If you know of more non-digital type links, send them to me
+  and I'll make a seperate page for them.]
+NIMX Foundry::
+  3878 Oak Lawn Ave, Suite 100B-177 Dallas, TX 75219-4610 Email:
+  nimx001@aol.com NIMX is a small type foundry based in Dallas, Texas.
+  We offer a variety of display typefaces and an eclectic assortment of
+  dingbat fonts. NIMX display faces are designed to be stylish and
+  flexible, allowing you all the room you need to bend, twist, twirl and
+  express yourself fully. Our foundry was founded in February 1992 and
+  the first NIMX typefaces appeared in April 1993. Our collection
+  currently includes designs by Calvin Glenn and Laurie McCanna.
+Olduvai Corporation::
+  Fonts.
+Omnibus::
+  Omnibus P.O. Box 135 S-135 23 Tyresö SE Phone: +46 8 742 8336 Fax: +46
+  8 712 3993 Email: aaa@omnibus.se All fonts from Omnibus are designed
+  by the Swedish typeface designer Franko Luin.
+ONGdesign::
+  ONGdesign 6721 SE Boise Portland, OR 97206 Phone: (503) 771-8204
+  Email: ong@teleport.com ONGdesign provides several faces, including a
+  hand lettering face and several dot-matrix-like faces.
+OptiFont, Castcraft Software, Inc.::
+  OptiFont, CD-ROM font collections.
+P22 Type Foundry::
+  P22 Type Foundry PO Box 770 West Side Station Buffalo, New York
+  14213-0770 P22 type foundry is the primary branch of P22 Inc. We are
+  dedicated to producing quality art and computer-related products. Our
+  goal is to revive historical type and present them in a contemporary,
+  relevant form, the computer. Our research and design teams are
+  committed to developing type faces which are not available anywhere
+  else.
+ParaType::
+  ParaType 32 Krasikova Street, 19th floor Moscow 117418 Russia Phone:
+  +7 (095) 332 40 01 Fax: +7 (095) 129 0911 Email: fonts@paragraph.com
+  The ParaType Library is the world's largest collection of digital
+  typefaces based on non-Latin alphabets. The ParaType Library consists
+  of over 300 type styles directed to all people who create printed
+  matter on a computer, in areas like graphic design, book production,
+  advertising, office communications, with electronic media and in the
+  private sector. Having in mind multilingual support for printing we
+  produce fonts based on the different code pages.
+Paul Baker Typography, Inc.::
+  Typography, type, and discussion.
+PenUltimate Digital Type Foundry::
+  PenUltimate Digital Type Foundry Email: penultimte@aol.com PenUltimate
+  Digital Type Foundry is a typeface design group that is based in
+  Seabrook, Texas. Now in our fourth year of typeface designs we are
+  just beginning to receive recognition from designers for our
+  inventive, creative designs. Head designer Chris MacGregor founded
+  PenUltimate (under the name Fontaholics) back in 1993 by buying a Mac
+  and Fontographer, since then our library has grown to over 30 complete
+  faces and about 100 faces that are currently in development.
+  PenUltimate also maintains an index of type foundries] on the
+  web.
+Peter Slingsby; Fonts of Afrika::
+  Peter Slingsby Email: wmail@is.co.za Fonts of Afrika is a family of
+  scalable dingbat fonts that contain images of Afrika: birds, mammals,
+  children, rock art, etc.
+Phil's Fonts, Inc.::
+  Phil's Fonts, Inc. 14605 Sturtevant Road Silver Spring, MD 20905 USA
+  Email: ralph@philsfonts.com Phil's Fonts is a great resource for type
+  and other graphic software. In the spirit of fusing art and
+  technology, we've created a sort of "virtual typehouse," where
+  typographers, graphic artists and all visual communicators can have
+  fun and learn. Phil's Fonts web features the latest font showings from
+  hot designers, as well as contests, a free font to download, free type
+  catalog request form, cool links, and much more!
+PrePRESS SOLUTIONS::
+  Online store, including fonts.
+prototype::
+  Experimental foundry.
+Psy/Ops Type Foundry, SF::
+  Rodrigo Xavier Cavazos Design Email: rxc@psyops.com Psy/Ops was
+  founded in June of 1995 to represent the experimental typographic work
+  of artists and designers primarily from the San Francisco Bay Area.
+  The growing collection includes only high quality work with an
+  emphasis on bold, original design.
+Quadrat Communications::
+  Quadrat Communications 50 Alexander Street, Suite 1901 Toronto,
+  Ontario Canada M4Y 1B6 Phone: (416) 960-0606 Fax: (416) 960-6054
+  Quadrat Communications is a digital type foundry based in Toronto,
+  Ontario, Canada. [David Vereschagin] began creating and designing type
+  a few years ago, intrigued by the new possibilities presented by
+  Altsys's Fontographer software. [His] first project was the plain
+  style of Clear Prairie Dawn, a sans serif text face, which took three
+  years to complete. As well as designing [his] own faces, [he's] also
+  available for the creation of custom faces.
+San Gabriel Custom Fontologists::
+  San Gabriel Custom Fontologists P.O. Box 3000-256 Georgetown, TX 78627
+  Phone: (512) 930-3801 Email: info@sangabriel.com Our services include:
+  customized TrueType or Postscript Type 1 fonts, convert your
+  handwriting into a font, logo fonts (never mess with bitmaps again!),
+  and signature fonts that are perfect for "personalizing" faxes and
+  letters.
+Sander Kessels::
+  Sander Kessels Email: kessels@xs4all.nl A bunch of typographical
+  experiments by Sander Kessels. In total 37 fonts for the Macintosh,
+  divided in 10 families.
+The Scriptorium::
+  Ragnarok Press POB 140333 Austin, TX 78714 Email:
+  graball@infinity.ccsi.com Ragnarok's Scriptorium is a collection of
+  digital typefaces and graphic arts resources developed by Ragnarok
+  Press. We started out designing typefaces and graphics for our
+  publications and realized that other people could put them too good
+  use too. Today our graphic arts and typeface library is huge and
+  growing even larger and makes up the majority of our business.
+The SGI Typeface Collection::
+  Here's a booklet showing various typefaces designed at SGI over the
+  last few years. This exhibit is part of Grafica Obscura],
+  Paul Haeberli]'s computer graphics notebook.
+Shift::
+  Shift P.O. Box 4 Burlingame CA 94011 USA Email: fontinfo@shiftype.com
+  Shift is a cool new foundry/distributor of Type 1 Macintosh Postscript
+  fonts. The current library includes fonts like NucleusOne, Therm,
+  Trans, and Alien.
+Snailworks::
+  Snailworks Home Page
+Sooy Type Foundry::
+  Brian Sooy & Co 419 Hampton Drive Elyria, OH 44035 US Phone: (216)
+  322-5142 Fax: (216) 322-5108 Email: bsooy@cybergate.net The Sooy Type
+  Foundry features display, image and text fonts, several of which are
+  also licensed by Alphabets, Inc. All fonts can be previewed with
+  Shockwave and Flash previews. Available for Mac/Win, PS type 1 and
+  Truetype.
+Southern Software, Inc.::
+  Southern Software, Inc. is a Font Foundry located in Port Charlotte,
+  Florida. We have one of the most complete libraries of high quality
+  typefaces in the country...at an affordable price that can put them on
+  your hard disk!
+Studio Daedalus::
+  Studio Daedalus P.O. Box 11521 Champaign, IL 61826-1521 Creators of
+  _WhizBang_, a font for comic book lettering.
+Surface Type::
+  Surface Type Email: webmaster@surrface.com Digital fonts from Surface
+  Type (formerly TypeWire).
+SynFonts::
+  SynFonts Email: DSynstel@aol.com SynFonts was started on a whim (and
+  partially out of a distress over the high price other font vendors
+  were charging for the work they produce) I set about creating cool
+  fonts. After receiving several slaps on the back and much
+  encouragement, I started distributing them.
+[T-26]::
+  T-26 1110 North Milwaukee Avenue Chicago, IL 60622 Phone: (773)
+  862-5667 Fax: (773) 862-1214 Email: t26font@aol.com Foundry
+  specializing in experimental type, among other things.
+Three Islands Press::
+  Three Islands Press P.O. Box 442 Rockland, ME 04841 US A small
+  collection of well-made fonts at very resonable prices.
+Tiro Typeworks::
+  Tiro Typeworks is an independent digital type foundry developing and
+  marketing high quality typeface families for PC and Mac platforms.
+Treacyfaces / Headliners::
+  Treacyfaces / Headliners Phone: (203) 389-7037 Fax: (203) 389-7039
+  Email: treacyface@aol.com Commercial font studio.
+Type Arts::
+  The Type Arts family includes practitioners of type design and
+  development, digital photo compositing, typesetting and web page
+  design and posting. We would not be a family,ludes practitioners of
+  type design and development, digital photo however, without the token
+  rocket scientists, Reseda alternative bands and cat lovers.
+The Type Quarry::
+  Three Islands Press P.O. Box 442 Rockland, ME 04841-0442 Email:
+  transom@3ip.com Three Islands Press has spun off a digital foundry,
+  and type sales and development consume a good chunk of time around
+  here. Implausibly, my five original shareware typefaces have managed
+  quite a little following; you'll find them here, along with occasional
+  new faces--which I hope to release with moderate regularity.
+U-Design Type Foundry::
+  The U-Design Type Foundry Home Page.
+(URW)++ Design & Development GmbH::
+  (URW)++ Design & Development GmbH Poppenbuettler Bogen 29 a Hamburg
+  22399 Germany Phone: +49-40-606050 Fax: +49-40-60605111 Email:
+  juergen@urwppe.de (URW)++ is a German Company which has been active
+  since 1995. It was founded as a successor of URW and has a library of
+  3000 fonts including many nonlatin (greek, cyrillic, japanese and
+  chinese) fonts. (URW)++ is also a Software developing Company and
+  manufacturer of the famous IKARUS system.
+Visual Designs::
+  Eric Baal P.O. Box 1492 Santa Maria, CA 93456-1492 Email:
+  airbaal@ix.netcom.com Visual Designs is a small typeface company that
+  sells fonts for PC in Type 1 & True Type Format and for Macintosh in
+  True Type format. All fonts have a full set of characters including
+  technical and foreign characters for languages such as Spanish and
+  French. Each font is currently available only through Visual Designs,
+  and are one of a kind.
+Vitatype Digital Fonts::
+  Vitatype 3400 W. 171st St. Stilwell, KS 66085 Email: jeff@vitatype.com
+  Vitatype fonts are custom, handcrafted typeface designs.
+Y&Y, Inc::
+  Y&Y, Inc. Tuttle's Livery 45 Walden Street Concord, MA 01742-2513 USA
+  Phone: (508) 371-3286 Fax: (508) 371-2004 Email: main-office@YandY.com
+  Y&Y, Inc. sell a number of font packages including a complete line of
+  TeX text and math fonts and the Lucida(R) series by Bigelow & Holmes.
+Zang-O-Fonts::
+  Zang-O-Fonts c/o Zang Studios Mono Plaza, Unit b5, RR#4 Orangeville,
+  Ontario, Canada, L9W 2Z1 Phone: (519) 942-4823 Fax: (519) 941-5779
+  Email: zang@headwaters.com Our fonts have been carefully handcrafted
+  to make life easier for the everyday fontowner and are destined to be
+  your among your most used faces. Besides being the handiest of handy,
+  these fonts are streamlined for a touch of style. You'll be the talk
+  of the town cruising around with your brand new Zang-O-Fonts.
+

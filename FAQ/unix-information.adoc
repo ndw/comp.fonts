@@ -1,0 +1,56 @@
+= Unix Information
+
+See also the 'utilities' section for more information. Most of the
+utilities described in that section run under Unix.
+
+The bulk of this section was contributed by Johannes Schmidt-Fischer in
+Jun 1993.
+
+== Unix Font Formats
+
+Most printers attached to Unix hosts are PostScript printers. As a
+consequence, most Unix users are also using PostScript fonts. If you are
+not using a PostScript printer, you need a front-end, like GhostScript,
+to convert the PostScript into a format compatible with your printer.
+
+There is no Unix specific Postscript Type 1 format. The most often used
+(and most easily usable) format is Adobe's PFA format. The other often
+used format is PFB format. The PFB format is more compact (by about
+50%), but in order to use it you need make sure that your font
+downloading tools are prepared to convert PFB to PFA on fly.
+
+Postscript Type 3 fonts are no problem, they can be handled the same way
+as Type 1 fonts.
+
+Most Unix tools expect to get character metric information from AFM
+files. You may have difficulty using fonts collected off of the 'Net if
+they do not include AFM files
+
+== Font Installation
+
+=== Application
+
+It depends. (Well, what did you expect me to say? ;-)
+
+=== Printer using an ExitServer
+
+Convert PFB fonts into PFA format if necessary and then send them to
+printer inside a wrapper like so:
+
+....
+%!PS-Adobe-2.0 ExitServer Job
+serverdict begin 0 exitserver  % 0: substitute your password
+...                            % font in PFA-format
+%%EOF
+....
+
+Or include them directly in your print job:
+
+....
+%!PS-Adobe-2.0
+...                            % font in PFA-format
+...                            % other initialisation
+%%Page: 1 i                    % beginning of your job...
+...                            % ...
+%%EOF
+....
