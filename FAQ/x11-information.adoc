@@ -180,9 +180,9 @@ Mac format postscript:::
   Under MS-DOS, conversion to PC format postscript allows the font to be
   accessed with PS2PK (under *nix or MS-DOS). See above for TeX PK to X
   conversions.
-PC/Unix format PostScript::
+PC/Unix format PostScript:::
   Conversion to TeX PK with PS2PK allows you to get to BDF (indirectly).
-XtoBDF, getbdf, FStoBDF::
+XtoBDF, getbdf, FStoBDF:::
   `XtoBDF` and `getbdf` are two public-domain applications which are
   capable of asking an X server to give them all it knows about a given
   font. They then print the BDF representation of that font on stdout.
