@@ -650,7 +650,7 @@ ftp://mac.archive.umich.edu/mac/system.extensions/font/type3
 
 TrueType fonts in MS-DOS Format::
 
-link:[ftp://ftp.cica.indiana.edu/pub/pc/win3/fonts/truetype]
+ftp://ftp.cica.indiana.edu/pub/pc/win3/fonts/truetype
 
 TrueType fonts in Mac Format::
 
@@ -658,8 +658,8 @@ ftp://mac.archive.umich.edu/mac/system.extensions/font/truetype
 
 ==== TeX (MetaFont) fonts:
 
-Try link:[the fonts directory] at the link:[WWW Interface to the
-Comprehensive TeX Archive Network].
+Try the fonts directory at the WWW Interface to the
+Comprehensive TeX Archive Network.
 
 The TeX community has its own support groups that can provide better
 answers to this question. The canonical list of MetaFont fonts is posted
