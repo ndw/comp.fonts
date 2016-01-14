@@ -190,9 +190,7 @@ are any good ( = usually made with Fontographer).
   +
   I usually use it like this
   +
-....
-$ unfont new_font.pfb >NewFont
-....
+  `$ unfont new_font.pfb >NewFont`
   +
   If the conversion was successful all I have to after that is maybe to
   rename the font correctly and move the outline file in the correct
